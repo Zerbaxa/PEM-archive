@@ -119,6 +119,7 @@ def main():
         'papers': sorted(inc, key=lambda p: (-clin(p), -res(p))),
     }
     path = os.path.join(ROOT, 'data', 'issues', args.issue + '.json')
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     json.dump(issue, open(path, 'w'), ensure_ascii=False, indent=1)
     print(f"must-read {len(must)}, researcher's pick {len(picks)}, pocus {len(pocus)}, ai {len(ai)}, "
           f"{len(inc)} included -> {path}")

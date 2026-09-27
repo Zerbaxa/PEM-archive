@@ -166,6 +166,7 @@ def main():
         out['scorer'] = f'{llm.PROVIDER}:{llm.model_name()}'
     out['papers'] = scored
     path = args.out or os.path.join(ROOT, 'data', 'scored', args.issue + '.json')
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     json.dump(out, open(path, 'w'), ensure_ascii=False, indent=1)
     inc = [p for p in scored if p['include']]
     print(f'{len(inc)}/{len(scored)} included -> {path}')

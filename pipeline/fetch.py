@@ -145,6 +145,7 @@ def main():
     papers = fetch(pmids)
     out = {'issue': args.issue, 'window': [start.isoformat(), end.isoformat()], 'n': len(papers), 'papers': papers}
     path = os.path.join(ROOT, 'data', 'candidates', args.issue + '.json')
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     json.dump(out, open(path, 'w'), ensure_ascii=False, indent=1)
     print(f'{len(papers)} candidates ({start}..{end}, {len(seen)} previously seen skipped) -> {path}')
 
