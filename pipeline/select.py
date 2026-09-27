@@ -13,8 +13,10 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-MUST_READ_N, MUST_READ_MIN, MAX_PER_TOPIC = 5, 5, 2
+MUST_READ_N, MAX_PER_TOPIC = 5, 2
+MUST_READ_MIN_CLINICAL, MUST_READ_MIN_RANK = 4, 6   # raw Clinical Score floor, and floor after journal weight
 PICK_N, PICK_MIN = 3, 5
+PICK_JOURNAL_FACTOR = 0.5                          # venue matters less for method novelty
 TRACK_N = 3
 
 SUMMARY_PROMPT = """You write the featured entries of a weekly pediatric emergency medicine digest.
@@ -48,6 +50,24 @@ def pick(papers, key, n, minimum, exclude=(), per_topic=None):
     return chosen
 
 
+def must_read(inc):
+    """Rank by Clinical Score plus the internal journal weight (pipeline.journals)."""
+    from pipeline.journals import weight
+    pool = [p for p in inc if clin(p) >= MUST_READ_MIN_CLINICAL]
+    return pick(pool, lambda p: clin(p) + weight(p), MUST_READ_N, MUST_READ_MIN_RANK, per_topic=MAX_PER_TOPIC)
+
+
+def researchers_pick(inc, exclude):
+    from pipeline.journals import weight
+    pool = [p for p in inc if res(p) >= PICK_MIN]
+    return pick(pool, lambda p: res(p) + PICK_JOURNAL_FACTOR * weight(p), PICK_N, PICK_MIN, exclude=exclude)
+
+
+def track(papers):
+    from pipeline.journals import weight
+    return pick(papers, lambda p: max(clin(p), res(p)) + PICK_JOURNAL_FACTOR * weight(p), TRACK_N, 0)
+
+
 def summarize(papers):
     from pipeline import llm
     from pipeline.fetch import ensure_abstracts
@@ -69,13 +89,12 @@ def main():
     scored = json.load(open(os.path.join(ROOT, 'data', 'scored', args.issue + '.json')))
     inc = [p for p in scored['papers'] if p['include']]
 
-    must = pick(inc, clin, MUST_READ_N, MUST_READ_MIN, per_topic=MAX_PER_TOPIC)
+    must = must_read(inc)
     featured = {p['pmid'] for p in must}
-    picks = pick(inc, res, PICK_N, PICK_MIN, exclude=featured)
+    picks = researchers_pick(inc, featured)
     featured |= {p['pmid'] for p in picks}
-    both = lambda p: max(clin(p), res(p))
-    pocus = pick([p for p in inc if p.get('pocus')], both, TRACK_N, 0)
-    ai = pick([p for p in inc if p.get('ai')], both, TRACK_N, 0)
+    pocus = track([p for p in inc if p.get('pocus')])
+    ai = track([p for p in inc if p.get('ai')])
 
     need = [p for p in must + picks if not p.get('summary')]
     if need:

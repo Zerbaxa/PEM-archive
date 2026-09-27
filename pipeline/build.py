@@ -167,10 +167,8 @@ def issue_body(iss):
                 f'{" · Preprint" if is_preprint(p) else ""}</span>'
                 f'<p>{e(p.get("one_line") or "")}</p></li>' for p in groups[t]) + '</ul></div>' for t in order)
     return (head +
-            section('★ Must-read', 'Highest Clinical Score this week: likely to affect what you do on your next shift. '
-                    'At most two per topic.', get('must_read'), numbered=True) +
-            section("◆ Researcher's pick", 'Highest Research Score among the rest: novel methods or questions worth '
-                    'learning from.', get('researchers_pick')) +
+            section('★ Must-read', 'Papers most likely to affect what you do on your next shift. At most two per topic.', get('must_read'), numbered=True) +
+            section("◆ Researcher's pick", 'Novel methods or questions worth learning from.', get('researchers_pick')) +
             section('▣ POCUS in the PED', 'Point-of-care ultrasound performed by clinicians caring for children in the '
                     'ED or prehospital setting.', get('pocus'), featured=False,
                     empty='No pediatric emergency POCUS papers this week.') +
@@ -266,10 +264,10 @@ questions, basic science and protocols are excluded. Typically about one in eigh
 <h2>3. Two scores</h2>
 <p><b>Clinical Score (0–10)</b>: practice impact (0–4), evidence strength (0–3), relevance to front-line PED care (0–2)
 and clinical novelty (0–1). <b>Research Score (0–10)</b>: methodological novelty (0–4), question novelty (0–3),
-rigor (0–2) and whether it generates new study ideas (0–1). Journal name and impact factor are not part of either score.</p>
+rigor (0–2) and whether it generates new study ideas (0–1).</p>
 <h2>4. The issue</h2>
-<ul><li><b>Must-read</b>: the five highest Clinical Scores (minimum 5), at most two per topic.</li>
-<li><b>Researcher's pick</b>: the three highest Research Scores among the rest (minimum 5).</li>
+<ul><li><b>Must-read</b>: five papers chosen by the editors' selection rules, led by Clinical Score, at most two per topic.</li>
+<li><b>Researcher's pick</b>: three more papers chosen mainly by Research Score.</li>
 <li><b>POCUS</b> and <b>AI & LLMs</b>: up to three papers each, when applied to pediatric emergency care.</li>
 <li>Everything else that passed screening, grouped by topic.</li></ul>
 <h2>Limits</h2>

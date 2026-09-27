@@ -85,6 +85,7 @@ def parse_article(a):
         'doi': ids.get('doi', ''),
         'pmcid': ids.get('pmc', ''),
         'entry_date': hist.get('entrez') or hist.get('pubmed', ''),
+        'had_abstract': bool(abstract),
     }
 
 
@@ -109,14 +110,21 @@ def ensure_abstracts(papers):
 
 
 def history(exclude_issue):
-    """PMIDs already fetched for other issues, and the earliest entry date the archive covers."""
+    """PMIDs to skip when fetching, and the earliest entry date the archive covers.
+
+    Records fetched without an abstract stay unseen so a later re-scan can score
+    them once PubMed adds one; anything already published in an issue is skipped.
+    """
     seen, first = set(), None
     for f in glob.glob(os.path.join(ROOT, 'data', 'candidates', '*.json')):
         if os.path.basename(f) != exclude_issue + '.json':
             d = json.load(open(f))
-            seen |= {p['pmid'] for p in d['papers']}
+            seen |= {p['pmid'] for p in d['papers'] if p.get('had_abstract', True)}
             start = dt.date.fromisoformat(d['window'][0])
             first = start if first is None else min(first, start)
+    for f in glob.glob(os.path.join(ROOT, 'data', 'issues', '*.json')):
+        if os.path.basename(f) != exclude_issue + '.json':
+            seen |= {p['pmid'] for p in json.load(open(f))['papers']}
     return seen, first
 
 

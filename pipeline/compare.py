@@ -10,7 +10,7 @@ import json
 import os
 import sys
 
-from pipeline.select import MAX_PER_TOPIC, MUST_READ_MIN, MUST_READ_N, PICK_MIN, PICK_N, clin, pick, res
+from pipeline.select import clin, must_read, res, researchers_pick
 
 
 def ranks(values):
@@ -40,8 +40,8 @@ def spearman(a, b):
 
 def selections(papers):
     inc = [p for p in papers if p['include']]
-    must = pick(inc, clin, MUST_READ_N, MUST_READ_MIN, per_topic=MAX_PER_TOPIC)
-    picks = pick(inc, res, PICK_N, PICK_MIN, exclude={p['pmid'] for p in must})
+    must = must_read(inc)
+    picks = researchers_pick(inc, {p['pmid'] for p in must})
     return {p['pmid'] for p in must}, {p['pmid'] for p in picks}
 
 

@@ -7,21 +7,21 @@
  "n_candidates": 422,
  "n_included": 52,
  "must_read": [
-  "42766085",
   "42765341",
-  "42766625",
+  "42766085",
   "42776990",
-  "42764858"
+  "42772763",
+  "42766625"
  ],
  "researchers_pick": [
-  "42780229",
-  "42784586",
-  "42782318"
+  "42782318",
+  "42764764",
+  "42784586"
  ],
  "pocus": [],
  "ai": [
-  "42766625",
   "42782318",
+  "42766625",
   "42768188"
  ],
  "papers": [
@@ -454,13 +454,8 @@
     "total": 5
    },
    "one_line": "Three RCTs (251 children) suggest adjunct corticosteroids improve trial-specific outcomes in pediatric CAP, but evidence is preliminary and insufficient for routine use.",
-   "summary": {
-    "why_it_matters": "Community-acquired pneumonia is a leading acute pediatric presentation, and adjunct corticosteroids are increasingly considered for severe disease.",
-    "design": "PRISMA 2020 systematic review and random-effects meta-analysis of randomized trials comparing adjunct systemic corticosteroids plus standard care with standard care or placebo in children (<18 years) with CAP; risk of bias assessed with RoB 2.",
-    "key_findings": "Three trials (251 children). Each trial reported benefit on its own primary outcome. Pooled length of stay favored corticosteroids (mean difference -2.10 days, 95% CI -6.79 to 2.59; I² = 91%). Mortality did not differ (RR 0.74, 95% CI 0.14 to 3.85). Transient hyperglycemia was the most common adverse effect.",
-    "bottom_line": "The signal is favorable but based on three small, heterogeneous trials; the evidence is insufficient to support routine use."
-   },
-   "methods_note": "SR/MA of RCTs with RoB 2 and alternative variance estimators"
+   "summary": null,
+   "methods_note": null
   },
   {
    "pmid": "42784586",
@@ -1889,8 +1884,13 @@
     "total": 3
    },
    "one_line": "Head CT use for pediatric mild TBI stayed high (43.5-51.5%) in 2017-2023, highest at adult hospitals (59.5%) and lowest at pediatric hospitals (38.8%).",
-   "summary": null,
-   "methods_note": null
+   "summary": {
+    "why_it_matters": "PECARN-based guidance has long aimed to cut head CT in children with minor head trauma, yet it is unclear how far practice has moved and where children are imaged most.",
+    "design": "National Trauma Data Bank analysis of children with isolated mild TBI, 2017-2023, comparing yearly CT rates across adult, pediatric and mixed hospitals with bootstrap confidence intervals.",
+    "key_findings": "In 12,030 children, overall CT use barely changed over seven years (43.5% to 51.5%). Adult hospitals scanned most (59.5%), mixed hospitals 44.0% and pediatric hospitals 38.8%. Lower GCS, altered consciousness, and smaller or nonteaching hospitals were linked to more imaging.",
+    "bottom_line": "Roughly half of children with mild TBI at trauma centers still get a head CT, with the widest gap at adult hospitals; decision-rule uptake remains a target for quality work."
+   },
+   "methods_note": "National trauma registry + hospital-type comparison over 7 years"
   },
   {
    "pmid": "42768399",

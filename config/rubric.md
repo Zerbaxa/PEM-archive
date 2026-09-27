@@ -1,4 +1,4 @@
-# PEM Archive screening and scoring rubric (v0.2)
+# PEM Archive screening and scoring rubric (v0.3)
 
 You are screening newly indexed PubMed records for a weekly digest of pediatric
 emergency medicine (PEM) literature. Judge each record from its title, abstract,
@@ -46,8 +46,11 @@ EXCLUDE:
   comments, errata, conference abstracts
 - narrative reviews, except substantive clinical reviews published in
   emergency medicine or pediatric journals
-- records without an abstract, unless the title alone makes an EM guideline or
-  major PEM statement obvious
+- records without an abstract, except (a) research letters or brief reports in
+  major general, pediatric or emergency medicine journals whose title clearly
+  describes pediatric emergency research, and (b) EM guidelines or major PEM
+  statements. Score such records conservatively (evidence at most 1, novelty 0
+  unless the title makes it obvious) and say "title only" in the rationale
 
 ## Step 2. Classify (included papers only)
 
