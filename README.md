@@ -42,11 +42,11 @@ drops records or returns broken JSON; failed batches are retried and then scored
 ## Choosing a model: calibration
 
 Run **Actions → Calibrate model → Run workflow** with a model id. It re-scores the 2026-09-26
-candidates (422 records) and compares them with the reference scoring in `data/scored/2026-09-26.json`. It
+candidates (422 records) and compares them with the reference scoring in `data/calibration/2026-09-26/`. It
 reports inclusion sensitivity/specificity, score agreement and Must-read overlap on the run page.
 Nothing is committed. Compare a few cheap models before setting `LLM_MODEL`.
 
-Locally: `python -m pipeline.score --issue 2026-09-26 --out cal.json && python -m pipeline.compare data/scored/2026-09-26.json cal.json`
+Locally: `python -m pipeline.score --issue 2026-09-26 --candidates data/calibration/2026-09-26/candidates.json --out cal.json && python -m pipeline.compare data/calibration/2026-09-26/scored.json cal.json`
 
 ## Weekly automation
 

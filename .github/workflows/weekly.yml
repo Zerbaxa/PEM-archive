@@ -8,6 +8,9 @@ on:
       issue:
         description: "Issue date YYYY-MM-DD (default: tomorrow, UTC)"
         required: false
+      lookback:
+        description: "Days to re-scan for late-indexed records (default 28)"
+        required: false
 
 permissions:
   contents: write
@@ -45,7 +48,7 @@ jobs:
         run: |
           ISSUE="${{ steps.date.outputs.issue }}"
           [ -z "$ISSUE" ] && ISSUE=$(date -u -d tomorrow +%F)
-          python -m pipeline.fetch --issue "$ISSUE"
+          python -m pipeline.fetch --issue "$ISSUE" --lookback "${{ inputs.lookback || '28' }}"
           python -m pipeline.score --issue "$ISSUE"
           python -m pipeline.select --issue "$ISSUE"
           python -m pipeline.build

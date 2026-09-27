@@ -145,8 +145,9 @@ def main():
     ap.add_argument('--issue', required=True)
     ap.add_argument('--import', dest='import_dir', help='folder of JSONL results to merge instead of calling an LLM')
     ap.add_argument('--out', help='write here instead of data/scored/<issue>.json (for calibration runs)')
+    ap.add_argument('--candidates', help='read candidates from this file instead of data/candidates/<issue>.json')
     args = ap.parse_args()
-    cand = json.load(open(os.path.join(ROOT, 'data', 'candidates', args.issue + '.json')))
+    cand = json.load(open(args.candidates or os.path.join(ROOT, 'data', 'candidates', args.issue + '.json')))
     papers = cand['papers']
     results = load_imported(args.import_dir) if args.import_dir else score_llm(papers)
     missing = [p['pmid'] for p in papers if p['pmid'] not in results]

@@ -11,7 +11,7 @@ on:
         description: "Model id (e.g. an OpenRouter model id). Default: the LLM_MODEL variable"
         required: false
       issue:
-        description: "Week to re-score"
+        description: "Reference week in data/calibration/ to re-score"
         required: false
         default: "2026-09-26"
 
@@ -40,9 +40,9 @@ jobs:
           python-version: "3.11"
       - run: pip install -r requirements.txt
       - name: Score with the candidate model
-        run: python -m pipeline.score --issue "${{ inputs.issue }}" --out calibration.json
+        run: python -m pipeline.score --issue "${{ inputs.issue }}" --candidates "data/calibration/${{ inputs.issue }}/candidates.json" --out calibration.json
       - name: Compare with reference
-        run: python -m pipeline.compare "data/scored/${{ inputs.issue }}.json" calibration.json
+        run: python -m pipeline.compare "data/calibration/${{ inputs.issue }}/scored.json" calibration.json
       - uses: actions/upload-artifact@v4
         with:
           name: calibration-${{ inputs.issue }}
