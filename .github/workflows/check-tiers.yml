@@ -1,0 +1,38 @@
+name: Check journal tiers
+
+# Confirms the JOURNAL_TIERS secret is present and valid without printing it.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      JOURNAL_TIERS: ${{ secrets.JOURNAL_TIERS }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          raw = os.environ.get('JOURNAL_TIERS', '')
+          if not raw.strip():
+              sys.exit('JOURNAL_TIERS secret is missing or empty')
+          t = json.loads(raw)
+          missing = [k for k in ('weights', 'S', 'A', 'B', 'D', 'D_patterns') if k not in t]
+          if missing:
+              sys.exit(f'JOURNAL_TIERS is missing keys: {missing}')
+          print('journals per tier:', {k: len(t[k]) for k in ('S', 'A', 'B', 'D')})
+          from pipeline.journals import tier, weight
+          for j in ('Pediatrics', 'Pediatr Emerg Care', 'Front Pediatr', 'Cureus', 'Children (Basel)'):
+              print(f'{j}: tier {tier(j)}, weight {weight({"journal": j})}')
+          print('OK')
+          PY
