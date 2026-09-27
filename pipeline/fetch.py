@@ -116,8 +116,10 @@ def history(exclude_issue):
     them once PubMed adds one; anything already published in an issue is skipped.
     """
     seen, first = set(), None
+    published = {os.path.basename(f) for f in glob.glob(os.path.join(ROOT, 'data', 'issues', '*.json'))}
     for f in glob.glob(os.path.join(ROOT, 'data', 'candidates', '*.json')):
-        if os.path.basename(f) != exclude_issue + '.json':
+        # candidates of a run that never became an issue (e.g. a failed run) are not "seen"
+        if os.path.basename(f) != exclude_issue + '.json' and os.path.basename(f) in published:
             d = json.load(open(f))
             seen |= {p['pmid'] for p in d['papers'] if p.get('had_abstract', True)}
             start = dt.date.fromisoformat(d['window'][0])

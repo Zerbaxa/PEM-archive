@@ -69,6 +69,7 @@ def track(papers):
 
 
 def summarize(papers):
+    """Summarize each featured paper in its own request; a paper that still fails keeps its one-line summary."""
     from pipeline import llm
     from pipeline.fetch import ensure_abstracts
     from pipeline.score import SUMMARY, record_text
@@ -77,8 +78,21 @@ def summarize(papers):
         'results': {'type': 'array', 'items': {
             'type': 'object', 'additionalProperties': False, 'required': ['pmid', 'summary', 'methods_note'],
             'properties': {'pmid': {'type': 'string'}, 'summary': SUMMARY, 'methods_note': {'type': 'string'}}}}}}
-    out = llm.complete_json(SUMMARY_PROMPT, '\n'.join(record_text(p) for p in papers), schema)
-    return {str(r['pmid']): r for r in out['results']}
+    out = {}
+    for p in papers:
+        for attempt in (1, 2, 3):
+            try:
+                res = llm.complete_json(SUMMARY_PROMPT, record_text(p), schema)
+                rows = res.get('results', []) if isinstance(res, dict) else res
+                row = next((r for r in rows if isinstance(r, dict) and isinstance(r.get('summary'), dict)), None)
+                if row:
+                    out[p['pmid']] = row
+                    break
+            except Exception as e:
+                print(f'summary {p["pmid"]} attempt {attempt} failed: {type(e).__name__}: {str(e)[:120]}', flush=True)
+        if p['pmid'] not in out:
+            print(f'warning: no summary for {p["pmid"]}; the one-line summary is shown instead', flush=True)
+    return out
 
 
 def main():

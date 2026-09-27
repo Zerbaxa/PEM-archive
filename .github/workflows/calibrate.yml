@@ -31,7 +31,7 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       JOURNAL_TIERS: ${{ secrets.JOURNAL_TIERS }}
       SCORE_BATCH: ${{ vars.SCORE_BATCH || '8' }}
-      SCORE_WORKERS: ${{ vars.SCORE_WORKERS || '4' }}
+      SCORE_WORKERS: ${{ vars.SCORE_WORKERS || '8' }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4

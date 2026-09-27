@@ -14,7 +14,7 @@ import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BATCH = int(os.environ.get('SCORE_BATCH', '8'))
-WORKERS = int(os.environ.get('SCORE_WORKERS', '4'))
+WORKERS = int(os.environ.get('SCORE_WORKERS', '8'))
 
 TOPICS = ['resuscitation_critical', 'trauma_injury', 'infection_fever', 'respiratory',
           'sedation_analgesia_procedures', 'mental_behavioral', 'toxicology', 'neurology',

@@ -33,7 +33,7 @@ jobs:
       JOURNAL_TIERS: ${{ secrets.JOURNAL_TIERS }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
       SCORE_BATCH: ${{ vars.SCORE_BATCH || '8' }}
-      SCORE_WORKERS: ${{ vars.SCORE_WORKERS || '4' }}
+      SCORE_WORKERS: ${{ vars.SCORE_WORKERS || '8' }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
@@ -43,20 +43,30 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Issue date
         id: date
-        run: echo "issue=${{ inputs.issue || '' }}" >> "$GITHUB_OUTPUT"
-      - name: Run pipeline
         run: |
-          ISSUE="${{ steps.date.outputs.issue }}"
+          ISSUE="${{ inputs.issue }}"
           [ -z "$ISSUE" ] && ISSUE=$(date -u -d tomorrow +%F)
-          python -m pipeline.fetch --issue "$ISSUE" --lookback "${{ inputs.lookback || '28' }}"
-          python -m pipeline.score --issue "$ISSUE"
-          python -m pipeline.select --issue "$ISSUE"
-          python -m pipeline.build
-          python -m pipeline.strip
-      - name: Commit
+          echo "issue=$ISSUE" >> "$GITHUB_OUTPUT"
+      - name: Fetch
         run: |
+          # a re-run for the same issue date reuses what an earlier attempt saved
+          [ -f "data/candidates/${{ steps.date.outputs.issue }}.json" ] || \
+            python -m pipeline.fetch --issue "${{ steps.date.outputs.issue }}" --lookback "${{ inputs.lookback || '28' }}"
+      - name: Score
+        run: |
+          [ -f "data/scored/${{ steps.date.outputs.issue }}.json" ] || \
+            python -m pipeline.score --issue "${{ steps.date.outputs.issue }}"
+      - name: Select and summarize
+        run: python -m pipeline.select --issue "${{ steps.date.outputs.issue }}"
+      - name: Build site
+        run: python -m pipeline.build
+      - name: Commit
+        if: always()
+        run: |
+          python -m pipeline.strip
           git config user.name "pem-archive bot"
           git config user.email "actions@users.noreply.github.com"
           git add data docs
-          git diff --cached --quiet || git commit -m "Weekly issue $(ls data/issues | tail -1 | cut -d. -f1)"
+          if [ -f "data/issues/${{ steps.date.outputs.issue }}.json" ]; then MSG="Weekly issue ${{ steps.date.outputs.issue }}"; else MSG="Partial run ${{ steps.date.outputs.issue }} (re-run to finish)"; fi
+          git diff --cached --quiet || git commit -m "$MSG"
           git push
