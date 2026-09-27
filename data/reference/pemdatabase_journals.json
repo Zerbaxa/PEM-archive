@@ -1,0 +1,234 @@
+{
+ "source": "pemdatabase.org weekly listings, 2021-09 to 2026-09 (deduplicated)",
+ "n": 5848,
+ "n_journals": 774,
+ "periods": [
+  "2021-22",
+  "2022-23",
+  "2023-24",
+  "2024-25",
+  "2025-26"
+ ],
+ "journals": [
+  {
+   "journal": "Pediatr Emerg Care",
+   "total": 805,
+   "by_period": [
+    218,
+    150,
+    138,
+    141,
+    147
+   ]
+  },
+  {
+   "journal": "Pediatrics",
+   "total": 209,
+   "by_period": [
+    41,
+    50,
+    40,
+    39,
+    38
+   ]
+  },
+  {
+   "journal": "Am J Emerg Med",
+   "total": 209,
+   "by_period": [
+    52,
+    33,
+    29,
+    46,
+    47
+   ]
+  },
+  {
+   "journal": "JAMA Netw Open",
+   "total": 182,
+   "by_period": [
+    23,
+    37,
+    40,
+    36,
+    45
+   ]
+  },
+  {
+   "journal": "Eur J Pediatr",
+   "total": 137,
+   "by_period": [
+    20,
+    30,
+    23,
+    29,
+    32
+   ]
+  },
+  {
+   "journal": "Hosp Pediatr",
+   "total": 111,
+   "by_period": [
+    13,
+    23,
+    27,
+    21,
+    26
+   ]
+  },
+  {
+   "journal": "Arch Dis Child",
+   "total": 108,
+   "by_period": [
+    15,
+    18,
+    21,
+    28,
+    23
+   ]
+  },
+  {
+   "journal": "Front Pediatr",
+   "total": 107,
+   "by_period": [
+    35,
+    24,
+    12,
+    6,
+    29
+   ]
+  },
+  {
+   "journal": "Cureus",
+   "total": 107,
+   "by_period": [
+    15,
+    28,
+    16,
+    27,
+    21
+   ]
+  },
+  {
+   "journal": "Ann Emerg Med",
+   "total": 90,
+   "by_period": [
+    11,
+    19,
+    15,
+    22,
+    21
+   ]
+  },
+  {
+   "journal": "J Am Coll Emerg Physicians Open",
+   "total": 88,
+   "by_period": [
+    13,
+    17,
+    20,
+    15,
+    17
+   ]
+  },
+  {
+   "journal": "Acad Emerg Med",
+   "total": 86,
+   "by_period": [
+    18,
+    10,
+    18,
+    19,
+    19
+   ]
+  },
+  {
+   "journal": "JAMA Pediatr",
+   "total": 77,
+   "by_period": [
+    12,
+    16,
+    15,
+    12,
+    21
+   ]
+  },
+  {
+   "journal": "Emerg Med Australas",
+   "total": 75,
+   "by_period": [
+    16,
+    12,
+    13,
+    19,
+    12
+   ]
+  },
+  {
+   "journal": "J Emerg Med",
+   "total": 72,
+   "by_period": [
+    12,
+    16,
+    13,
+    10,
+    18
+   ]
+  },
+  {
+   "journal": "Prehosp Emerg Care",
+   "total": 72,
+   "by_period": [
+    17,
+    14,
+    7,
+    23,
+    10
+   ]
+  },
+  {
+   "journal": "J Pediatr",
+   "total": 67,
+   "by_period": [
+    18,
+    12,
+    11,
+    7,
+    18
+   ]
+  },
+  {
+   "journal": "Emerg Med J",
+   "total": 65,
+   "by_period": [
+    14,
+    13,
+    7,
+    12,
+    19
+   ]
+  },
+  {
+   "journal": "Pediatr Emerg Med Pract",
+   "total": 64,
+   "by_period": [
+    12,
+    12,
+    14,
+    14,
+    12
+   ]
+  },
+  {
+   "journal": "Acad Pediatr",
+   "total": 63,
+   "by_period": [
+    17,
+    10,
+    10,
+    12,
+    14
+   ]
+  }
+ ]
+}

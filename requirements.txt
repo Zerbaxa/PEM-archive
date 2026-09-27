@@ -1,0 +1,4 @@
+# LLM SDKs. OpenRouter and OpenAI both use the openai package.
+openai
+anthropic
+google-genai

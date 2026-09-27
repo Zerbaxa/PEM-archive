@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods · PEM Archive</title>
+<meta name="description" content="Weekly must-reads in pediatric emergency medicine">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html">PEM Archive <span>· PEM literature, weekly</span></a>
+<nav class="nav" aria-label="Main"><a href="index.html">This week</a><a href="archive.html">Archive</a><a href="dashboard.html">Dashboard</a><a href="about.html" aria-current="page">Methods</a></nav>
+<button class="theme-btn" type="button" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main class="wrap">
+<div class="issue-head"><h1>How it works</h1><p class="lede">Every step, criterion and prompt is public.</p></div>
+<div class="prose">
+<h2>1. Search</h2>
+<p>Each week we collect PubMed records added in the previous 7 days that match a broad pediatric emergency search,
+re-scanning the previous 4 weeks for records that become searchable late. Tested against five years of listings from
+The Pediatric Emergency Medicine Database, the search captured 94% of the papers listed there.</p>
+<details><summary>Show the PubMed query</summary><pre>((pediatric*[tiab] OR paediatric*[tiab] OR child*[tiab] OR infant*[tiab] OR adolescen*[tiab] OR neonat*[tiab] OR newborn*[tiab] OR toddler*[tiab] OR youth*[tiab] OR kid[tiab] OR kids[tiab] OR &quot;young people&quot;[tiab] OR child[mh] OR infant[mh] OR adolescent[mh] OR pediatrics[mh] OR &quot;pediatric emergency medicine&quot;[mh]) AND (&quot;emergency department*&quot;[tiab] OR &quot;emergency room*&quot;[tiab] OR &quot;emergency medicine&quot;[tiab] OR &quot;emergency care&quot;[tiab] OR &quot;emergency unit*&quot;[tiab] OR &quot;accident and emergency&quot;[tiab] OR &quot;emergency service, hospital&quot;[mh] OR &quot;emergency medicine&quot;[mh] OR &quot;emergency medical services&quot;[mh] OR &quot;emergencies&quot;[mh] OR ED[tiab] OR EDs[tiab] OR PED[tiab] OR PEDs[tiab] OR prehospital[tiab] OR pre-hospital[tiab] OR &quot;emergency medical service*&quot;[tiab] OR paramedic*[tiab] OR ambulance*[tiab] OR &quot;urgent care&quot;[tiab] OR triage[tiab] OR &quot;trauma center*&quot;[tiab] OR &quot;trauma centre*&quot;[tiab] OR &quot;emergency&quot;[tiab])) OR &quot;Pediatr Emerg Care&quot;[ta] OR &quot;Pediatr Emerg Med Pract&quot;[ta] OR ((pediatric*[tiab] OR paediatric*[tiab] OR child*[tiab] OR infant*[tiab] OR adolescen*[tiab] OR neonat*[tiab] OR newborn*[tiab] OR toddler*[tiab] OR youth*[tiab] OR kid[tiab] OR kids[tiab] OR &quot;young people&quot;[tiab] OR child[mh] OR infant[mh] OR adolescent[mh] OR pediatrics[mh] OR &quot;pediatric emergency medicine&quot;[mh]) AND (&quot;Am J Emerg Med&quot;[ta] OR &quot;Ann Emerg Med&quot;[ta] OR &quot;Acad Emerg Med&quot;[ta] OR &quot;J Emerg Med&quot;[ta] OR &quot;Emerg Med J&quot;[ta] OR &quot;Emerg Med Australas&quot;[ta] OR &quot;CJEM&quot;[ta] OR &quot;J Am Coll Emerg Physicians Open&quot;[ta] OR &quot;West J Emerg Med&quot;[ta] OR &quot;Prehosp Emerg Care&quot;[ta] OR &quot;Resuscitation&quot;[ta] OR &quot;Resusc Plus&quot;[ta] OR &quot;Eur J Emerg Med&quot;[ta] OR &quot;Scand J Trauma Resusc Emerg Med&quot;[ta] OR &quot;BMC Emerg Med&quot;[ta] OR &quot;Int J Emerg Med&quot;[ta] OR &quot;Emerg Med Clin North Am&quot;[ta] OR &quot;AEM Educ Train&quot;[ta] OR &quot;Intern Emerg Med&quot;[ta] OR &quot;Clin Exp Emerg Med&quot;[ta] OR &quot;Emergencias&quot;[ta] OR &quot;Air Med J&quot;[ta] OR &quot;Prehosp Disaster Med&quot;[ta] OR &quot;Am J Emerg Med&quot;[ta] OR &quot;Injury&quot;[ta] OR &quot;J Trauma Acute Care Surg&quot;[ta])) OR ((pediatric*[tiab] OR paediatric*[tiab] OR child*[tiab] OR infant*[tiab] OR adolescen*[tiab] OR neonat*[tiab] OR newborn*[tiab] OR toddler*[tiab] OR youth*[tiab] OR kid[tiab] OR kids[tiab] OR &quot;young people&quot;[tiab]) AND (resuscitat*[tiab] OR &quot;cardiac arrest&quot;[tiab] OR CPR[tiab] OR trauma*[tiab] OR injur*[tiab] OR concussion*[tiab] OR fractur*[tiab] OR sedation[tiab] OR ketamine[tiab] OR bronchiolitis[tiab] OR croup[tiab] OR asthma exacerbation*[tiab] OR appendicitis[tiab] OR intussusception[tiab] OR sepsis[tiab] OR septic[tiab] OR &quot;febrile infant*&quot;[tiab] OR &quot;diabetic ketoacidosis&quot;[tiab] OR &quot;status epilepticus&quot;[tiab] OR &quot;febrile seizure*&quot;[tiab] OR anaphylaxis[tiab] OR poisoning*[tiab] OR ingestion*[tiab] OR &quot;foreign body&quot;[tiab] OR torsion[tiab] OR &quot;point-of-care ultrasound&quot;[tiab] OR POCUS[tiab] OR &quot;child abuse&quot;[tiab] OR maltreatment[tiab]))</pre></details>
+<h2>2. Screening</h2>
+<p>An AI model reads each title and abstract and keeps original research, systematic reviews, guidelines and substantive
+reviews that are directly relevant to the emergency care of children. Case reports, adult-only studies, inpatient-only
+questions, basic science and protocols are excluded. Typically about one in eight candidates passes.</p>
+<h2>3. Two scores</h2>
+<p><b>Clinical Score (0–10)</b>: practice impact (0–4), evidence strength (0–3), relevance to front-line PED care (0–2)
+and clinical novelty (0–1). <b>Research Score (0–10)</b>: methodological novelty (0–4), question novelty (0–3),
+rigor (0–2) and whether it generates new study ideas (0–1). Journal name and impact factor are not part of either score.</p>
+<h2>4. The issue</h2>
+<ul><li><b>Must-read</b>: the five highest Clinical Scores (minimum 5), at most two per topic.</li>
+<li><b>Researcher's pick</b>: the three highest Research Scores among the rest (minimum 5).</li>
+<li><b>POCUS</b> and <b>AI & LLMs</b>: up to three papers each, when applied to pediatric emergency care.</li>
+<li>Everything else that passed screening, grouped by topic.</li></ul>
+<h2>Limits</h2>
+<p>Summaries are written by AI in its own words from each abstract; abstracts themselves are not reproduced here, so follow the PubMed link for the original. Scores and summaries can be wrong. Preprints are labeled as not peer reviewed. Nothing on
+this site is medical advice. The full rubric is published with the source code.</p>
+</div>
+</main>
+<footer><div class="wrap">
+PEM Archive screens newly indexed PubMed records every week. Selections, scores and summaries are AI-assisted and
+based on abstracts; they are not medical advice. Links go to PubMed. · <a href="about.html">How it works</a>
+</div></footer>
+</body>
+</html>

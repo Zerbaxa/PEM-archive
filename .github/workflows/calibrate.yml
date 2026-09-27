@@ -1,0 +1,48 @@
+name: Calibrate model
+
+# Re-score an existing week's candidates with a model and compare against the
+# reference scoring in data/scored/<issue>.json. Nothing is committed; the
+# report appears on the run's summary page and the scores are kept as an artifact.
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Model id (e.g. an OpenRouter model id). Default: the LLM_MODEL variable"
+        required: false
+      issue:
+        description: "Week to re-score"
+        required: false
+        default: "2026-09-26"
+
+permissions:
+  contents: read
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openrouter' }}
+      LLM_MODEL: ${{ inputs.model || vars.LLM_MODEL }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SCORE_BATCH: ${{ vars.SCORE_BATCH || '8' }}
+      SCORE_WORKERS: ${{ vars.SCORE_WORKERS || '4' }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Score with the candidate model
+        run: python -m pipeline.score --issue "${{ inputs.issue }}" --out calibration.json
+      - name: Compare with reference
+        run: python -m pipeline.compare "data/scored/${{ inputs.issue }}.json" calibration.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calibration-${{ inputs.issue }}
+          path: calibration.json
