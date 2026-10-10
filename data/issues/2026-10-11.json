@@ -1,0 +1,4643 @@
+{
+ "issue": "2026-10-11",
+ "window": [
+  "2026-09-20",
+  "2026-10-10"
+ ],
+ "n_candidates": 517,
+ "n_included": 57,
+ "must_read": [
+  "42832216",
+  "42829926",
+  "42829175",
+  "42837916",
+  "42838724"
+ ],
+ "researchers_pick": [
+  "42839833",
+  "42843626",
+  "42843627"
+ ],
+ "pocus": [],
+ "ai": [
+  "42832216",
+  "42829175",
+  "42831767"
+ ],
+ "papers": [
+  {
+   "pmid": "42832216",
+   "title": "Evaluation of a Commercial Pediatric Sepsis Early Detection Alert in the Emergency Department.",
+   "journal": "JAMA Pediatr",
+   "journal_full": "JAMA pediatrics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Mitchell CM",
+     "affiliation": "NewYork-Presbyterian, New York, New York."
+    },
+    {
+     "name": "Zhang Z",
+     "affiliation": "Department of Biostatistics, Columbia University, New York, New York."
+    },
+    {
+     "name": "Ranard BL",
+     "affiliation": "Division of Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine, Vagelos College of Physicians and Surgeons, Columbia University, New York, New York."
+    },
+    {
+     "name": "Hruby G",
+     "affiliation": "NewYork-Presbyterian, New York, New York."
+    },
+    {
+     "name": "Lee SM",
+     "affiliation": "Department of Biostatistics, Columbia University, New York, New York."
+    },
+    {
+     "name": "Qian M",
+     "affiliation": "Department of Biostatistics, Columbia University, New York, New York."
+    },
+    {
+     "name": "Tsze DS",
+     "affiliation": "NewYork-Presbyterian, New York, New York."
+    },
+    {
+     "name": "Malia L",
+     "affiliation": "NewYork-Presbyterian, New York, New York."
+    },
+    {
+     "name": "Babineau J",
+     "affiliation": "NewYork-Presbyterian, New York, New York."
+    },
+    {
+     "name": "Adelman J",
+     "affiliation": "Columbia University Center for Patient Safety Science, New York, New York."
+    },
+    {
+     "name": "Scott HF",
+     "affiliation": "Department of Pediatrics, University of Colorado School of Medicine and Children's Hospital Colorado, Aurora."
+    }
+   ],
+   "doi": "10.1001/jamapediatrics.2026.4575",
+   "pmcid": "PMC13639799",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to pediatric EDs where the Epic sepsis early detection alert is used",
+   "topics": [
+    "infection_fever",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": true,
+   "clinical": {
+    "impact": 3,
+    "evidence": 2,
+    "relevance": 2,
+    "novelty": 1,
+    "rationale": "Large multicenter evaluation of a widely used commercial sepsis alert; low sensitivity and disparities argue for rethinking automated sepsis screening in the ED.",
+    "total": 8
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 3,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "First independent, multicenter assessment of a widely deployed commercial sepsis alert, with subgroup analyses that expose equity gaps and generate follow-up work.",
+    "total": 7
+   },
+   "one_line": "In 166,943 pediatric ED visits, the Epic sepsis alert detected only 36% of sepsis cases, with lower sensitivity in Black children and children under 5.",
+   "summary": {
+    "why_it_matters": "The Epic PESM alert is widely used in US pediatric EDs but had not been independently evaluated; this study suggests it misses most sepsis cases and may worsen inequities.",
+    "design": "Retrospective multicenter cohort of 166,943 pediatric ED encounters across 8 EDs in one New York health system, January 2024 to June 2025; sepsis defined by Phoenix criteria.",
+    "key_findings": "Sensitivity was 36% (95% CI 29-43%) and PPV 3%; the alert triggered before sepsis in only 30% of cases. Sensitivity was lower in Black children (22%), children under 5 (20%), and non-tertiary EDs (25%).",
+    "bottom_line": "Automated sepsis screening with this alert is not sufficient for timely or equitable detection; EDs should not rely on it alone."
+   },
+   "methods_note": "Retrospective multicenter cohort across 8 EDs in one NY health system evaluating the Epic PESM alert against Phoenix sepsis criteria."
+  },
+  {
+   "pmid": "42829926",
+   "title": "Comparative efficacy and safety of antiemetics for pediatric gastroenteritis-related vomiting in emergency departments: a network meta-analysis.",
+   "journal": "Curr Med Res Opin",
+   "journal_full": "Current medical research and opinion",
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Antiemetic",
+    "emergency department",
+    "emesis",
+    "nausea",
+    "vomiting"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Alsabri M",
+     "affiliation": "Emergency Department, Al-Thawra Modern General Hospital, Sanaa, Yemen."
+    },
+    {
+     "name": "Abouelmagd K",
+     "affiliation": "Research director, Emergency Department, The Brooklyn Hospital Center."
+    },
+    {
+     "name": "Bostamy Elsnhory A",
+     "affiliation": "Faculty of Medicine, Al-Azhar University, Cairo, Egypt."
+    },
+    {
+     "name": "Kamal I",
+     "affiliation": "Faculty of Medicine, Al-Azhar University, Cairo, Egypt."
+    },
+    {
+     "name": "Makram Elsayed S",
+     "affiliation": "Pediatrics Department, National Heart Institute, Giza, Egypt."
+    },
+    {
+     "name": "Shehada W",
+     "affiliation": "Faculty of Medicine, Islamic University of Gaza, Gaza, Palestine."
+    },
+    {
+     "name": "F Batarseh S",
+     "affiliation": "Faculty of Medicine, Jordan University of Science and Technology, Irbid, Jordan."
+    },
+    {
+     "name": "L Gamboa L",
+     "affiliation": "Drexel University College of Medicine, Program Director, Pediatric Emergency Medicine Fellowship, St Christopher's Hospital for Children, Philadelphia, PA, USA."
+    }
+   ],
+   "doi": "10.1080/03007995.2026.2734671",
+   "pmcid": "",
+   "entry_date": "2026-10-04",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with acute gastroenteritis-related vomiting, informing which antiemetic to give",
+   "exclude_reason": "",
+   "topics": [
+    "infection_fever"
+   ],
+   "design": "sr_ma",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 3,
+    "evidence": 3,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Large network meta-analysis of RCTs on a very common ED presentation that clarifies comparative antiemetic choice and IV fluid avoidance.",
+    "total": 8
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "Standard network meta-analysis method applied to a confirmatory comparative question, but executed with ROB-2 and GRADE appraisal across 33 trials.",
+    "total": 5
+   },
+   "one_line": "Network meta-analysis of 33 RCTs finds ondansetron most consistently reduces vomiting and IV rehydration in children with gastroenteritis in the ED, with dimenhydrinate helping longer-term control.",
+   "summary": {
+    "why_it_matters": "Vomiting from acute gastroenteritis is a leading reason children present to the ED, but the comparative value of antiemetics was unclear.",
+    "design": "Network meta-analysis of 33 RCTs of children up to 21 years presenting to the ED with acute gastroenteritis, with ROB-2 and GRADE appraisal.",
+    "key_findings": "All ondansetron formulations reduced short-term vomiting versus placebo, IV most strongly (MD -1.86, 95% CI -3.25 to -0.47), and IV ondansetron was the only agent consistently superior at intermediate follow-up. Cessation within 24 h favored IV ondansetron (RR 1.56, 95% CI 1.29-1.89) and rectal dimenhydrinate (RR 1.48, 95% CI 1.08-2.04). Ondansetron also reduced IV rehydration (RR 0.62, 95% CI 0.44-0.88) and modestly shortened ED stay.",
+    "bottom_line": "Ondansetron is the most consistent first-line choice; dimenhydrinate may help longer-term control."
+   },
+   "methods_note": null
+  },
+  {
+   "pmid": "42829175",
+   "title": "Unfolding new horizons: Machine learning applications for pediatric intussusception - A systematic review and meta-analysis.",
+   "journal": "J Pediatr Surg",
+   "journal_full": "Journal of pediatric surgery",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Artificial intelligence",
+    "Deep learning",
+    "Diagnostic accuracy",
+    "Machine learning",
+    "Pediatric intussusception"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Campos LR",
+     "affiliation": "Department of Medicine, Universidade de Ribeirão Preto (UNAERP), Ribeirão Preto, São Paulo, Brazil."
+    },
+    {
+     "name": "Symeou S",
+     "affiliation": "School of medicine, University of Ioannina, Ioannina, Greece. Electronic address: solonas2610@gmail.com."
+    },
+    {
+     "name": "Carpi GC",
+     "affiliation": "Department of Pediatrics, Hospital de Clínicas de Porto Alegre (HCPA), Porto Alegre, Rio Grande do Sul, Brazil."
+    },
+    {
+     "name": "Poenaru D",
+     "affiliation": "Department of Pediatric Surgery, McGill University Health Centre, Montreal, Quebec, Canada."
+    }
+   ],
+   "doi": "10.1016/j.jpedsurg.2026.163518",
+   "pmcid": "",
+   "entry_date": "2026-10-03",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with suspected intussusception, where ML-assisted ultrasound or radiograph interpretation could support diagnosis and triage",
+   "exclude_reason": "",
+   "topics": [
+    "surgical_abdomen_gu",
+    "imaging"
+   ],
+   "design": "sr_ma",
+   "multicenter": false,
+   "pocus": false,
+   "ai": true,
+   "clinical": {
+    "impact": 2,
+    "evidence": 2,
+    "relevance": 1,
+    "novelty": 1,
+    "rationale": "Supports ED diagnostic decisions for intussusception by showing ML-assisted ultrasound is accurate and can help less experienced readers, though external validation and clinical endpoint data are still needed.",
+    "total": 6
+   },
+   "research": {
+    "method_novelty": 2,
+    "question_novelty": 3,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "First meta-analysis of ML diagnostic models for pediatric intussusception, with PROBAST-based risk-of-bias assessment, publication bias evaluation, and clear recommendations for prospective validation.",
+    "total": 8
+   },
+   "one_line": "Machine-learning models using ultrasound diagnose pediatric intussusception with high accuracy and can improve junior sonographers' specificity, though external validation is still needed.",
+   "summary": {
+    "why_it_matters": "Intussusception is a common pediatric surgical emergency; diagnosis depends on operator skill, and validated ML tools could support ED triage and ultrasound interpretation by less experienced clinicians.",
+    "design": "PROSPERO-registered systematic review and meta-analysis of 11 studies (37 model variants; 36,863 patients) evaluating ML models for intussusception diagnosis or prognosis, with PROBAST and bivariate random-effects meta-analysis.",
+    "key_findings": "Internally and externally validated ultrasound-based ML models showed pooled sensitivity around 0.91-0.95 and specificity around 0.96-0.98. Radiograph-based triage models performed lower (sensitivity 0.80, specificity 0.75). AI assistance improved junior readers' specificity by 15.9 percentage points and shortened examination time by 61% in one study. Prognostic AUCs varied widely.",
+    "bottom_line": "ML-assisted ultrasound is promising for ED diagnosis of intussusception, but should augment rather than replace clinical ultrasound; multicenter prospective validation and clinical endpoint studies are needed before implementation."
+   },
+   "methods_note": "Systematic review and meta-analysis of machine-learning diagnostic accuracy studies, with PROBAST and bivariate random-effects meta-analysis."
+  },
+  {
+   "pmid": "42848028",
+   "title": "Age-adjusted shock index vs. reverse shock index multiplied by Glasgow Coma Scale to evaluate mortality in pediatric trauma: a systematic literature review and meta-analysis.",
+   "journal": "Pediatr Surg Int",
+   "journal_full": "Pediatric surgery international",
+   "pub_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "mesh": [
+    "Child",
+    "Humans",
+    "Glasgow Coma Scale",
+    "Shock",
+    "Wounds and Injuries"
+   ],
+   "keywords": [
+    "Glasgow Coma Scale",
+    "Pediatric trauma",
+    "Reverse Shock Index",
+    "Shock Index"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Fonseca Páez NA",
+     "affiliation": "School of Medicine, Department of Pediatrics, Universidad Nacional de Colombia, Carrera 45 # 26-85, Bogotá, 111321, Colombia."
+    },
+    {
+     "name": "Trujillo Ceballos ÁA",
+     "affiliation": "Hospital Universitario Fundación Santa Fe de Bogotá, Calle 119 # 7-75, Bogotá, 110111, Colombia. aa.trujillo@uniandes.edu.co."
+    },
+    {
+     "name": "Aguilar Mejía J",
+     "affiliation": "School of Medicine, Department of Pediatrics, Universidad Nacional de Colombia, Carrera 45 # 26-85, Bogotá, 111321, Colombia."
+    },
+    {
+     "name": "Cañón Plazas MA",
+     "affiliation": "Hospital Universitario de Guadalajara, Castilla-La Mancha, Spain."
+    }
+   ],
+   "doi": "10.1007/s00383-026-06662-6",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with trauma requiring early mortality risk stratification",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "sr_ma",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 1,
+    "rationale": "Meta-analysis of observational studies comparing SIPA and rSIG for mortality in pediatric trauma; supports use of rSIG for mortality risk stratification.",
+    "total": 6
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "Systematic review and meta-analysis with robust methodology, but standard design; first comparison of these scores.",
+    "total": 6
+   },
+   "one_line": "In pediatric trauma, rSIG/rSIM outperformed SIPA for mortality prediction, while SIPA remained useful for transfusion risk.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837916",
+   "title": "Abrupt versus gradual HFNC discontinuation in children: Shorter HFNC duration without increased weaning failure.",
+   "journal": "Am J Emerg Med",
+   "journal_full": "The American journal of emergency medicine",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Child",
+    "High flow nasal cannula",
+    "Oxygen therapy",
+    "Respiratory distress"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Mart ZÖ",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey. Electronic address: zeynep.olmez@deu.edu.tr."
+    },
+    {
+     "name": "Er A",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey. Electronic address: anil.er@deu.edu.tr."
+    },
+    {
+     "name": "Ulusoy E",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey."
+    },
+    {
+     "name": "Eser Ö",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey."
+    },
+    {
+     "name": "Canbeldek ME",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey."
+    },
+    {
+     "name": "Günal Ö",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey."
+    },
+    {
+     "name": "Koca E",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey."
+    },
+    {
+     "name": "Duman M",
+     "affiliation": "Division of Pediatric Emergency Care, Department of Pediatrics, Dokuz Eylül University Faculty of Medicine, Inciralti, 35340 Izmir, Turkey. Electronic address: mduman@deu.edu.tr."
+    }
+   ],
+   "doi": "10.1016/j.ajem.2026.09.050",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children in the pediatric ED receiving high-flow nasal cannula for acute respiratory distress",
+   "topics": [
+    "respiratory"
+   ],
+   "design": "prospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 1,
+    "rationale": "Suggests abrupt HFNC weaning is non-inferior and shorter, but needs confirmation in RCT.",
+    "total": 6
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Prospective comparison of weaning strategies; non-randomized but clinically relevant.",
+    "total": 5
+   },
+   "one_line": "Abrupt discontinuation of high-flow nasal cannula in children with respiratory distress shortens HFNC duration by about 32% without increasing weaning failure.",
+   "summary": {
+    "why_it_matters": "HFNC weaning lacks evidence; prolonged use strains resources. This study compares abrupt vs gradual discontinuation in a pediatric ED.",
+    "design": "Prospective observational study in an academic pediatric ED (Sept 2025-Feb 2026). 87 children meeting improvement criteria were enrolled; physicians chose weaning strategy.",
+    "key_findings": "Weaning failure occurred in 2 patients per group. Among successful weans, median HFNC duration was shorter with abrupt: 59h (IQR 44-92) vs 87h (IQR 61-110), p=0.012 (~32% reduction). LOS did not differ (p=0.065).",
+    "bottom_line": "Abrupt discontinuation appears safe, reduces HFNC duration without increasing failure, and may improve device availability."
+   },
+   "methods_note": "Single-center prospective observational study in an academic pediatric ED"
+  },
+  {
+   "pmid": "42853109",
+   "title": "Postoperative Outcomes After Single or Multiple Visits for Paediatric Appendicitis.",
+   "journal": "Acta Paediatr",
+   "journal_full": "Acta paediatrica (Oslo, Norway : 1992)",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "abscess",
+    "complicated appendicitis",
+    "delayed diagnosis",
+    "perforation",
+    "postoperative outcome"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Orfanos I",
+     "affiliation": "Department of Clinical Sciences, Lund University, Lund, Sweden."
+    },
+    {
+     "name": "Ekelund C",
+     "affiliation": "Department of Clinical Sciences, Lund University, Lund, Sweden."
+    },
+    {
+     "name": "Sund A",
+     "affiliation": "Department of Clinical Sciences, Lund University, Lund, Sweden."
+    },
+    {
+     "name": "Salö M",
+     "affiliation": "Department of Clinical Sciences, Lund University, Lund, Sweden."
+    },
+    {
+     "name": "Fernandez JS",
+     "affiliation": "Department of Pediatric Surgery, Skåne University Hospital, Lund, Sweden."
+    }
+   ],
+   "doi": "10.1111/apa.70801",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "ED evaluation of children with suspected appendicitis, deciding between observation with planned reassessment and further investigation when the diagnosis is not made at the first visit.",
+   "exclude_reason": "",
+   "topics": [
+    "surgical_abdomen_gu"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective single-center comparison showing that delayed diagnosis of appendicitis did not increase operations or length of stay, supporting ED observation-and-reassessment strategies.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective cohort design addressing a familiar diagnostic-delay question in a pediatric appendicitis cohort.",
+    "total": 5
+   },
+   "one_line": "Children whose appendicitis was diagnosed after multiple visits had more complicated disease but similar operation counts and hospital stay as those diagnosed at the first visit.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42847856",
+   "title": "A Pediatric Psychology Bridge Clinic as an Acute Care and Emergency Department Diversion Service.",
+   "journal": "Evid Based Pract Child Adolesc Ment Health",
+   "journal_full": "Evidence-based practice in child and adolescent mental health",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Child",
+    "Adolescent",
+    "Retrospective Studies",
+    "Male",
+    "Emergency Service, Hospital",
+    "Mental Disorders",
+    "Emergency Room Visits",
+    "Referral and Consultation"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Radtke S",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Sommerhalder M",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Skolnick S",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Bhattiprolu K",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Grados M",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Parrish C",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    },
+    {
+     "name": "Reynolds E",
+     "affiliation": "Johns Hopkins Bloomberg Children's Center, Division of Child and Adolescent Psychiatry, Baltimore, MD, USA."
+    }
+   ],
+   "doi": "10.1080/23794925.2026.2644197",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with psychiatric complaints and considered for acute care diversion",
+   "exclude_reason": "",
+   "topics": [
+    "mental_behavioral",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective single-center evaluation of a bridge clinic supports ED diversion decisions but does not change direct clinical care.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Matched comparison of bridge clinic vs inpatient is a useful design for evaluating ED diversion, though single-center and retrospective.",
+    "total": 5
+   },
+   "one_line": "A pediatric psychology bridge clinic reduced ED length of stay for psychiatric patients compared with inpatient admission, with high intake attendance.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42847126",
+   "title": "Characteristics, Practice Patterns, and Outcomes of Emergency Department Intubation for Sepsis: An ANZEDAR Registry Study.",
+   "journal": "Emerg Med Australas",
+   "journal_full": "Emergency medicine Australasia : EMA",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Sepsis",
+    "Registries",
+    "Female",
+    "Emergency Service, Hospital",
+    "Male",
+    "Intubation, Intratracheal",
+    "New Zealand",
+    "Retrospective Studies",
+    "Child",
+    "Child, Preschool",
+    "Adolescent",
+    "Infant",
+    "Australia",
+    "Adult",
+    "Middle Aged",
+    "Practice Patterns, Physicians'",
+    "Aged"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Chandru P",
+     "affiliation": "Emergency Department, Nepean Hospital, Sydney, New South Wales, Australia."
+    },
+    {
+     "name": "Alkhouri H",
+     "affiliation": "Agency for Clinical Innovation, Emergency Care Institute, Sydney, New South Wales, Australia."
+    },
+    {
+     "name": "Fogg T",
+     "affiliation": "Emergency Department, Royal North Shore Hospital, Sydney, New South Wales, Australia."
+    },
+    {
+     "name": "Long E",
+     "affiliation": "Royal Children's Hospital, Murdoch Children's Research Institute, University of Melbourne, Victoria, Australia."
+    }
+   ],
+   "doi": "10.1111/1742-6723.70362",
+   "pmcid": "PMC13647193",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children undergoing emergency department intubation for sepsis",
+   "exclude_reason": "",
+   "topics": [
+    "resuscitation_critical",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Large registry data supports monitoring and capnography quality improvement in ED sepsis intubations but does not immediately change practice.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard registry analysis with a pediatric subgroup focus on a known question; offers follow-up opportunities for capnography interventions.",
+    "total": 5
+   },
+   "one_line": "In a large Australasian ED registry, sepsis intubations had high hemodynamic complications and lower waveform capnography use, including in infants.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42845975",
+   "title": "Initial nebulized budesonide versus a local off-label nebulized dexamethasone protocol in children with institution-defined grade III croup receiving epinephrine: a retrospective cohort study.",
+   "journal": "Front Pediatr",
+   "journal_full": "Frontiers in pediatrics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "budesonide",
+    "dexamethasone",
+    "epinephrine",
+    "inverse probability weighting",
+    "observational data",
+    "pediatric croup",
+    "propensity score"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Yang Y",
+     "affiliation": "Department of Emergency Medicine, Jiangxi Provincial Children's Hospital, Nanchang, Jiangxi, China."
+    },
+    {
+     "name": "Xiong L",
+     "affiliation": "Department of Emergency Medicine, Jiangxi Provincial Children's Hospital, Nanchang, Jiangxi, China."
+    },
+    {
+     "name": "Liu H",
+     "affiliation": "Department of Emergency Medicine, Jiangxi Provincial Children's Hospital, Nanchang, Jiangxi, China."
+    }
+   ],
+   "doi": "10.3389/fped.2026.1948559",
+   "pmcid": "PMC13642681",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with severe croup requiring epinephrine",
+   "exclude_reason": "",
+   "topics": [
+    "respiratory"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Observational comparison of two nebulized corticosteroid strategies in severe croup; supports but does not change practice.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective design with IPTW; addresses an uncommon comparison (nebulized dexamethasone vs budesonide) in a common condition.",
+    "total": 5
+   },
+   "one_line": "In children with severe croup, nebulized budesonide was associated with faster stridor resolution than a local nebulized dexamethasone protocol.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42843172",
+   "title": "Associations of system noise with lumbar puncture and hospitalization for young febrile infants: a cross-sectional study.",
+   "journal": "Am J Emerg Med",
+   "journal_full": "The American journal of emergency medicine",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Community medicine",
+    "Emergency medicine",
+    "Febrile infants",
+    "Hospital medicine"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Pendyala S",
+     "affiliation": "University of Rochester School of Medicine and Dentistry, Department of Pediatrics, Rochester, NY, United States of America; Rice University, Department of Neuroscience, Houston, TX, United States of America."
+    },
+    {
+     "name": "Karki P",
+     "affiliation": "University of Rochester School of Medicine and Dentistry, Department of Pediatrics, Rochester, NY, United States of America."
+    },
+    {
+     "name": "Yaeger JP",
+     "affiliation": "University of Rochester School of Medicine and Dentistry, Department of Pediatrics, Rochester, NY, United States of America; University of Rochester Medical Center, Department of Public Health Sciences, Rochester, NY, United States of America. Electronic address: Jeffrey_Yaeger@urmc.rochester.edu."
+    }
+   ],
+   "doi": "10.1016/j.ajem.2026.09.046",
+   "pmcid": "",
+   "entry_date": "2026-10-07",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "ED evaluation of febrile infants aged 8-90 days, where system noise factors may influence decisions to perform lumbar puncture or admit.",
+   "exclude_reason": "",
+   "topics": [
+    "infection_fever",
+    "ed_operations_quality"
+   ],
+   "design": "cross_sectional",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective database study showing system noise associated with LP and hospitalization decisions; supports awareness but not practice change.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard multivariable regression on a large all-payer database; novel application to system noise in febrile infant decision-making.",
+    "total": 5
+   },
+   "one_line": "In New York EDs, febrile infants were more likely to undergo lumbar puncture and hospitalization on weekdays, during daytime, and at shift changes.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837755",
+   "title": "Predictors of prolonged emergency department length of stay in severely injured pediatric patients.",
+   "journal": "Injury",
+   "journal_full": "Injury",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Emergency department length of stay",
+    "Healthcare systems efficiency",
+    "Injury severity score",
+    "Multicenter study",
+    "Pediatric trauma",
+    "Trauma registry",
+    "Trauma team activation"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Cevik AA",
+     "affiliation": "Department of Internal Medicine, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; Trauma and Emergency Research Group, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; The Department of Emergency Medicine, Tawam Hospital, Al-Ain, United Arab Emirates. Electronic address: aacevik@uaeu.ac.ae."
+    },
+    {
+     "name": "Alao DO",
+     "affiliation": "Department of Internal Medicine, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; Trauma and Emergency Research Group, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; The Department of Emergency Medicine, Tawam Hospital, Al-Ain, United Arab Emirates. Electronic address: davidalao@uaeu.ac.ae."
+    },
+    {
+     "name": "Farooq M",
+     "affiliation": "Department of Internal Medicine, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; Trauma and Emergency Research Group, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; The Department of Emergency Medicine, Tawam Hospital, Al-Ain, United Arab Emirates. Electronic address: mfarooq@uaeu.ac.ae."
+    },
+    {
+     "name": "Abu-Zidan F",
+     "affiliation": "Trauma and Emergency Research Group, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates; Department of Surgery, College of Medicine and Health Sciences, United Arab Emirates University, Al-Ain, United Arab Emirates. Electronic address: fabuzidan@uaeu.ac.ae."
+    }
+   ],
+   "doi": "10.1016/j.injury.2026.113753",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "severely injured children presenting to the ED and the system factors that prolong their ED length of stay",
+   "topics": [
+    "trauma_injury",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Identifies modifiable system-level predictors of prolonged ED stay in pediatric trauma, supporting quality improvement but not changing immediate practice.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard registry-based multivariable analysis applied to a new regional trauma population, with actionable follow-up QI questions.",
+    "total": 5
+   },
+   "one_line": "In severely injured children, prolonged ED length of stay was associated with teaching hospitals, lack of trauma team activation, and non-local nationality.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42835079",
+   "title": "Intranasal dexmedetomidine for procedural sedation in preschool children aged 2-6 years undergoing emergency gastric lavage for acute poisoning: a propensity score-matched single-center retrospective cohort study.",
+   "journal": "Front Pharmacol",
+   "journal_full": "Frontiers in pharmacology",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "agitation",
+    "dexmedetomidine hydrochloride",
+    "gastric lavage",
+    "medical resource utilization",
+    "pediatric emergency",
+    "procedural compliance"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Gao W",
+     "affiliation": "Department of Emergency Surgery, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    },
+    {
+     "name": "Yue Y",
+     "affiliation": "Department of Emergency, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    },
+    {
+     "name": "Geng W",
+     "affiliation": "Department of Emergency, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    },
+    {
+     "name": "Zhao P",
+     "affiliation": "Department of Emergency, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    },
+    {
+     "name": "Wang X",
+     "affiliation": "Department of Emergency, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    },
+    {
+     "name": "Feng Y",
+     "affiliation": "Department of Emergency Surgery, Hebei Children's Hospital, Hebei Provincial Clinical Research Center for Child Health and Disease, Shijiazhuang, China."
+    }
+   ],
+   "doi": "10.3389/fphar.2026.1921999",
+   "pmcid": "PMC13635208",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "preschool children undergoing emergency gastric lavage for acute poisoning in the ED",
+   "exclude_reason": "",
+   "topics": [
+    "sedation_analgesia_procedures",
+    "toxicology"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective single-center propensity-matched study supports intranasal dexmedetomidine as a safe sedation option for ED gastric lavage in young children, but confirmation is needed.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard propensity-matched retrospective design applied to a common PEM procedural sedation question, limited by single-center and retrospective data.",
+    "total": 5
+   },
+   "one_line": "In preschool children undergoing emergency gastric lavage for poisoning, intranasal dexmedetomidine improved compliance and reduced agitation versus comfort care alone.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42833055",
+   "title": "Temporal Patterns of Sexual Assault Presentations in U.S. Emergency Departments: Implications for Staffing and Forensic Readiness.",
+   "journal": "J Emerg Med",
+   "journal_full": "The Journal of emergency medicine",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "EMS",
+    "SANE",
+    "emergency medicine",
+    "sexual assault",
+    "violence"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Pitzele M",
+     "affiliation": "Department of Emergency Medicine, Rush University Medical Center, Chicago, Illinois. Electronic address: mpitzele@gmail.com."
+    },
+    {
+     "name": "Moyer E",
+     "affiliation": "Department of Emergency Medicine, Rush University Medical Center, Chicago, Illinois."
+    },
+    {
+     "name": "Gottlieb M",
+     "affiliation": "Department of Emergency Medicine, Rush University Medical Center, Chicago, Illinois."
+    }
+   ],
+   "doi": "10.1016/j.jemermed.2026.08.029",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "ED presentations for sexual assault, informing staffing and forensic readiness",
+   "exclude_reason": "",
+   "topics": [
+    "ed_operations_quality",
+    "child_protection"
+   ],
+   "design": "cross_sectional",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Large national cross-sectional study describing temporal patterns of SA ED visits; supports staffing decisions but does not change immediate clinical practice.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard database analysis applied to a novel question about temporal patterns of SA visits; large sample but retrospective.",
+    "total": 5
+   },
+   "one_line": "Sexual assault ED visits peak overnight on weekends, disproportionately affecting adolescents and young adults, suggesting staffing and forensic service needs.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42830576",
+   "title": "LongTerm Outcomes of Suspected Transient Synovitis of the Hip in NonAspirated Patients.",
+   "journal": "J Pediatr Orthop",
+   "journal_full": "Journal of pediatric orthopedics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "hip aspiration",
+    "hip infection",
+    "hip transient synovitis",
+    "musculoskeletal infection",
+    "transient synovitis"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Smadi Z",
+     "affiliation": "Texas Children's Hospital."
+    },
+    {
+     "name": "Burnett J",
+     "affiliation": "Baylor College of Medicine, Houston, TX."
+    },
+    {
+     "name": "Varghese J",
+     "affiliation": "Baylor College of Medicine, Houston, TX."
+    },
+    {
+     "name": "Balaji S",
+     "affiliation": "Baylor College of Medicine, Houston, TX."
+    },
+    {
+     "name": "Rosenfeld S",
+     "affiliation": "Texas Children's Hospital."
+    }
+   ],
+   "doi": "10.1097/BPO.0000000000003494",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with hip pain and suspected transient synovitis",
+   "exclude_reason": "",
+   "topics": [
+    "other"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Provides reassuring long-term outcome data for a common ED decision but is retrospective and descriptive.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Addresses an understudied non-aspirated cohort with long follow-up, though the single-center descriptive design limits generalizability.",
+    "total": 5
+   },
+   "one_line": "In children with presumed transient synovitis managed without hip aspiration, long-term outcomes were favorable with no missed septic arthritis, though a small proportion later had rheumatologic diagnoses.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42830572",
+   "title": "Missing the Deadline: Predictors of Surgical Delay Beyond 18 Hours in Pediatric Supracondylar Humerus Fractures.",
+   "journal": "J Pediatr Orthop",
+   "journal_full": "Journal of pediatric orthopedics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "SCHFx",
+    "supracondylar humerus fracture",
+    "surgical delay"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Johnson QJ",
+     "affiliation": "Department of Orthopaedic Surgery, Mayo Clinic, Rochester, MN."
+    },
+    {
+     "name": "Varas-Rodríguez E",
+     "affiliation": ""
+    },
+    {
+     "name": "Sullivan MH",
+     "affiliation": ""
+    },
+    {
+     "name": "Wahlig BD",
+     "affiliation": ""
+    },
+    {
+     "name": "Broida SE",
+     "affiliation": ""
+    },
+    {
+     "name": "Stans A",
+     "affiliation": ""
+    },
+    {
+     "name": "Grigoriou E",
+     "affiliation": ""
+    },
+    {
+     "name": "Larson AN",
+     "affiliation": ""
+    },
+    {
+     "name": "Milbrandt TA",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1097/BPO.0000000000003495",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with supracondylar humerus fractures and timing to surgery",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Identifies modifiable system predictors of surgical delay but does not change fracture management.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Uses a single-center cohort to interrogate a national quality metric; multivariate analysis is standard and would benefit from external validation.",
+    "total": 5
+   },
+   "one_line": "Evening ED arrival and higher Gartland severity independently predicted surgical delay beyond 18 hours for pediatric supracondylar humerus fractures.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853777",
+   "title": "Integration of S100B and GFAP with the PECARN Rule for CT Decision-Making in Pediatric Mild Traumatic Brain Injury: A Preliminary Study.",
+   "journal": "Pediatr Neurosurg",
+   "journal_full": "Pediatric neurosurgery",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Ulutas ÖY",
+     "affiliation": ""
+    },
+    {
+     "name": "Yavuz AY",
+     "affiliation": ""
+    },
+    {
+     "name": "Karbuz A",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1159/pne/aeiag007",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with mild traumatic brain injury",
+   "topics": [
+    "trauma_injury",
+    "imaging"
+   ],
+   "design": "diagnostic_accuracy",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Preliminary biomarker cutoffs could support CT decisions in mild TBI but require external validation before use.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Prospective diagnostic accuracy study with small sample and no external validation; biomarker-PECARN integration is a known question.",
+    "total": 4
+   },
+   "one_line": "In children with mild head trauma, adding serum S100B and GFAP cutoffs to the PECARN rule might reduce CTs, but validation is needed.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853259",
+   "title": "Decompressive craniectomy: The potential association with long-term functional outcomes in children with traumatic brain injury.",
+   "journal": "J Trauma Acute Care Surg",
+   "journal_full": "The journal of trauma and acute care surgery",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Traumatic brain injury",
+    "decompressive craniectomy",
+    "functional outcome",
+    "mortality",
+    "pediatric"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Wong AM",
+     "affiliation": "Department of Surgery, University of Southern California, Los Angeles, CA."
+    },
+    {
+     "name": "Braschi CD",
+     "affiliation": ""
+    },
+    {
+     "name": "Matsushima K",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1097/TA.0000000000005187",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children with severe TBI presenting to the ED, decision about decompressive craniectomy",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective analysis of multicenter TBI data; DC not associated with better functional outcomes, informing surgical decisions.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective analysis of existing trial data; adds pediatric-specific evidence on DC.",
+    "total": 4
+   },
+   "one_line": "Decompressive craniectomy in severe pediatric TBI was not associated with improved functional outcomes or mortality.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42852145",
+   "title": "Analgesia Administration in Severely Injured Pediatric Trauma Patients: A Comparison of General and Pediatric Emergency Departments.",
+   "journal": "J Emerg Trauma Shock",
+   "journal_full": "Journal of emergencies, trauma, and shock",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Analgesia",
+    "pediatric emergency",
+    "trauma"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Joffeh SAA",
+     "affiliation": "Department of Pediatric, Ha'Emek Medical Center, Afula, Israel."
+    },
+    {
+     "name": "Carsenty Y",
+     "affiliation": "Department of Pediatric Emergency, Ha'Emek Medical Center, Afula, Israel."
+    },
+    {
+     "name": "Meltsin N",
+     "affiliation": "Department of Trauma Unit, Ha'Emek Medical Center, Afula, Israel."
+    },
+    {
+     "name": "Shibli RAS",
+     "affiliation": "Department of Trauma Unit, Ha'Emek Medical Center, Afula, Israel."
+    },
+    {
+     "name": "Chayen G",
+     "affiliation": "Department of Pediatric Emergency, Ha'Emek Medical Center, Afula, Israel."
+    },
+    {
+     "name": "Jacob R",
+     "affiliation": "Department of Pediatric Emergency, Ha'Emek Medical Center, Afula, Israel."
+    }
+   ],
+   "doi": "10.4103/jets.jets_173_25",
+   "pmcid": "PMC13649211",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "analgesia administration in severely injured children presenting to pediatric vs general emergency departments",
+   "topics": [
+    "trauma_injury",
+    "sedation_analgesia_procedures",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective single-center comparison showing low analgesia rates in both settings, supports standardized protocols but not practice-changing.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Single-center retrospective with historical comparison; limited by small sample and temporal confounding.",
+    "total": 4
+   },
+   "one_line": "In severely injured children, analgesia was given to 48.6% in a PED vs 33.3% in a general ED, with overall low rates.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42850326",
+   "title": "Vitamin D status and adiposity in children with low-energy fractures: a prospective case-control study.",
+   "journal": "Eur J Pediatr",
+   "journal_full": "European journal of pediatrics",
+   "pub_types": [
+    "Journal Article",
+    "Multicenter Study",
+    "Observational Study"
+   ],
+   "mesh": [
+    "Adolescent",
+    "Child",
+    "Child, Preschool",
+    "Female",
+    "Humans",
+    "Male",
+    "Adiposity",
+    "Alkaline Phosphatase",
+    "Biomarkers",
+    "Body Mass Index",
+    "Case-Control Studies",
+    "Fractures, Bone",
+    "Logistic Models",
+    "Parathyroid Hormone",
+    "Prospective Studies",
+    "Risk Factors",
+    "Vitamin D",
+    "Vitamin D Deficiency"
+   ],
+   "keywords": [
+    "Adiposity",
+    "Alkaline phosphatase",
+    "Body mass index",
+    "Bone mineralization",
+    "Calcium metabolism",
+    "Low-energy trauma",
+    "Parathyroid hormone",
+    "Pediatric bone health",
+    "Pediatric fracture",
+    "Vitamin D"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Cosentino A",
+     "affiliation": "Paracelsus Medical University, Strubergasse 21, 5020, Salzburg, Austria. andreacosentino2@gmail.com."
+    },
+    {
+     "name": "Weghuber D",
+     "affiliation": "Department of Pediatrics, Paracelsus Medical University, Strubergasse 21, 5020, Salzburg, Austria."
+    },
+    {
+     "name": "Indelli PF",
+     "affiliation": "Institute of Biomechanics, Paracelsus Medical University, Strubergasse 21, 5020, Salzburg, Austria."
+    },
+    {
+     "name": "Fantini N",
+     "affiliation": "Department of Pediatrics, Hospital of Merano (SABES-ASDAA), Via Rossini 5, 39012, Merano-Meran, Italy."
+    },
+    {
+     "name": "Berger W",
+     "affiliation": "Department of Orthopedics and Traumatology, Hospital of Merano (SABES-ASDAA), Via Rossini 5, 39012, Merano-Meran, Italy."
+    },
+    {
+     "name": "Schmidt OS",
+     "affiliation": "Department of Orthopedics and Traumatology, Hospital of Merano (SABES-ASDAA), Via Rossini 5, 39012, Merano-Meran, Italy."
+    },
+    {
+     "name": "Högler W",
+     "affiliation": "Centre for Growth and Osteology, Department of Paediatrics and Adolescent Medicine, Johannes Kepler University, 4020, Linz, Austria."
+    }
+   ],
+   "doi": "10.1007/s00431-026-07509-x",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED after low-energy trauma with suspected fractures",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "case_control",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Prospective multicenter case-control showing vitamin D insufficiency is associated with low-energy fractures but with modest discrimination, supporting targeted rather than routine metabolic testing in the ED.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard case-control design with a useful interaction analysis between vitamin D and BMI-z in a pediatric fracture population.",
+    "total": 4
+   },
+   "one_line": "In children with low-energy fractures, vitamin D insufficiency is associated with fracture risk, but the effect is modest and modified by adiposity, arguing against routine metabolic testing.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837306",
+   "title": "Impact of a Multi-Center Collaborative on Antibiotic Duration for Acute Respiratory Infections in Pediatric Urgent Care.",
+   "journal": "J Pediatric Infect Dis Soc",
+   "journal_full": "Journal of the Pediatric Infectious Diseases Society",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "antimicrobial stewardship",
+    "duration",
+    "pediatric urgent care",
+    "quality improvement"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Nedved A",
+     "affiliation": "Department of Pediatrics, Children's Mercy, Kansas City, MO, United States."
+    },
+    {
+     "name": "Lee B",
+     "affiliation": "Department of Pediatrics, Children's Mercy, Kansas City, MO, United States."
+    },
+    {
+     "name": "Sainz LE",
+     "affiliation": "Department of Pediatrics, Children's Mercy, Kansas City, MO, United States."
+    },
+    {
+     "name": "Kronman MP",
+     "affiliation": "Department of Pediatrics, University of Washington School of Medicine, Seattle Children's Hospital, Seattle, WA, United States."
+    },
+    {
+     "name": "Hersh AL",
+     "affiliation": "Division of Infectious Diseases, Department of Pediatrics, University of Utah, Salt Lake City, UT, United States."
+    },
+    {
+     "name": "Parente V",
+     "affiliation": "Department of Pediatrics, Duke University School of Medicine, Durham, NC, United States."
+    },
+    {
+     "name": "Hamdy RF",
+     "affiliation": "Division of Infectious Diseases, Children's National Hospital, Washington, DC, United States."
+    },
+    {
+     "name": "El Feghaly RE",
+     "affiliation": "Department of Pediatrics, Children's Mercy, Kansas City, MO, United States."
+    },
+    {
+     "name": "Reducing Differences in Urgent Care Encounters for Antibiotic Choice (ReDUCE: Antibiotic Choice) Quality Improvement Collaborative",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1093/jpids/piag099",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children with acute respiratory infections seen in pediatric urgent care, antibiotic duration prescribing",
+   "exclude_reason": "",
+   "topics": [
+    "ed_operations_quality",
+    "infection_fever"
+   ],
+   "design": "qi",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Supports antibiotic stewardship decisions in urgent care, but the observed increase in short-course prescribing was modest and not a randomized comparison.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard multilevel analysis of a large QI collaborative; confirms known stewardship principles in a new setting and suggests equity-focused follow-up.",
+    "total": 4
+   },
+   "one_line": "A multicenter urgent care collaborative focused on antibiotic selection was associated with a modest increase in short-course antibiotic prescribing for acute respiratory infections.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42836701",
+   "title": "Missed Opportunities for Prehospital Transfusion in Pediatric Trauma.",
+   "journal": "Prehosp Emerg Care",
+   "journal_full": "Prehospital emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Hayes JM",
+     "affiliation": "Harvard Medical School, Boston, Massachusetts."
+    },
+    {
+     "name": "Peters GA",
+     "affiliation": "Harvard Medical School, Boston, Massachusetts."
+    },
+    {
+     "name": "Gao J",
+     "affiliation": "Department of Emergency Medicine, Massachusetts General Hospital, Boston, Massachusetts."
+    },
+    {
+     "name": "Cash RE",
+     "affiliation": "Harvard Medical School, Boston, Massachusetts."
+    }
+   ],
+   "doi": "10.1080/10903127.2026.2742418",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": false,
+   "include": true,
+   "ed_link": "prehospital transfusion in pediatric trauma",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury",
+    "prehospital_ems"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Title only; no abstract available, so evidence is limited to the title's implication that prehospital transfusion opportunities are missed in pediatric trauma.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 0,
+    "generativity": 0,
+    "rationale": "Title only; no methods available, but the question of missed prehospital transfusion in pediatric trauma is relevant and understudied.",
+    "total": 3
+   },
+   "one_line": "Title-only: prehospital transfusion opportunities are often missed in pediatric trauma.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42838724",
+   "title": "Mean arterial pressure for children in US emergency department and prehospital settings.",
+   "journal": "Arch Dis Child",
+   "journal_full": "Archives of disease in childhood",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Emergency Care",
+    "Emergency Service, Hospital",
+    "Epidemiology",
+    "Paediatric Emergency Medicine"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Ramgopal S",
+     "affiliation": "Division of Emergency Medicine, Ann & Robert H Lurie Children's Hospital of Chicago, Chicago, Illinois, USA sramgopal@luriechildrens.org."
+    },
+    {
+     "name": "Crowe R",
+     "affiliation": "ESO, Austin, Texas, USA."
+    },
+    {
+     "name": "Treichel A",
+     "affiliation": "ESO, Austin, Texas, USA."
+    },
+    {
+     "name": "Martin-Gill C",
+     "affiliation": "University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA."
+    }
+   ],
+   "doi": "10.1136/archdischild-2026-330623",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": false,
+   "include": true,
+   "ed_link": "mean arterial pressure reference values for children in US emergency department and prehospital settings",
+   "exclude_reason": "",
+   "topics": [
+    "resuscitation_critical"
+   ],
+   "design": "other",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Title only; likely provides normative MAP data that could inform ED and prehospital assessment.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 0,
+    "generativity": 0,
+    "rationale": "Title only; standard descriptive study, no abstract to assess methods.",
+    "total": 2
+   },
+   "one_line": "Title only: study of mean arterial pressure for children in US ED and prehospital settings.",
+   "summary": {
+    "why_it_matters": "This article addresses mean arterial pressure (MAP) in children in US emergency department and prehospital settings, a topic relevant to pediatric resuscitation and early recognition of hemodynamic compromise.",
+    "design": "Not specified; no abstract available.",
+    "key_findings": "No findings can be extracted from the title alone; the abstract is missing.",
+    "bottom_line": "The full text is needed to understand the study's methods, results, and clinical implications."
+   },
+   "methods_note": "No abstract available; design and data source not specified."
+  },
+  {
+   "pmid": "42838857",
+   "title": "Application of procalcitonin in pediatric emergency and critical care settings.",
+   "journal": "Pediatr Neonatol",
+   "journal_full": "Pediatrics and neonatology",
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Wu HP",
+     "affiliation": "Department of Pediatrics, Chiayi Chang Gung Memorial Hospital, Chiayi, Taiwan; College of Medicine, Chang Gung University, Taoyuan, Taiwan. Electronic address: arthur1226@gmail.comand."
+    },
+    {
+     "name": "Lee EP",
+     "affiliation": "College of Medicine, Chang Gung University, Taoyuan, Taiwan; Division of Pediatric Critical Care Medicine, Department of Pediatrics, Chang Gung Memorial Hospital at Linko, Kweishan, Taoyuan, Taiwan."
+    },
+    {
+     "name": "Lin JJ",
+     "affiliation": "College of Medicine, Chang Gung University, Taoyuan, Taiwan; Division of Pediatric Critical Care Medicine, Department of Pediatrics, Chang Gung Memorial Hospital at Linko, Kweishan, Taoyuan, Taiwan."
+    },
+    {
+     "name": "Hsu JH",
+     "affiliation": "Department of Pediatrics, Kaohsiung Medical University Hospital, Kaohsiung Medical University, Kaohsiung, Taiwan."
+    },
+    {
+     "name": "Jeng MJ",
+     "affiliation": "Institute of Emergency and Critical Care Medicine, School of Medicine, National Yang Ming Chiao Tung University, No. 155, Sec. 2, Linong St. Beitou Dist, Taipei City, 112304, Taiwan; Department of Pediatrics, Taipei Veterans General Hospital, Taipei, Taiwan; Department of Pediatrics, School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+    },
+    {
+     "name": "Wu ET",
+     "affiliation": "Department of Pediatrics, National Taiwan University Hospital, Taipei, Taiwan."
+    },
+    {
+     "name": "Hsu TY",
+     "affiliation": "Department of Pediatric Emergency MacKay Children's Hospital, Taiwan."
+    },
+    {
+     "name": "Wang PY",
+     "affiliation": "Department of Pediatric Emergency, Changhua Christian Children Hospital, Changhua, 500, Taiwan."
+    },
+    {
+     "name": "Wu CY",
+     "affiliation": "Department of Pediatrics, E-DA Hospital, Kaohsiung, Taiwan."
+    },
+    {
+     "name": "Wu PM",
+     "affiliation": "Department of Pediatrics, National Cheng Kung University Hospital, College of Medicine, National Cheng Kung University, Tainan, 70101, Taiwan."
+    },
+    {
+     "name": "Huang HJ",
+     "affiliation": "Ditmanson Medical Foundation Chia-Yi Christian Hospital, Department of Emergency Medicine, Chiayi City, Taiwan."
+    },
+    {
+     "name": "Jan SL",
+     "affiliation": "Children's Medical Center, Taichung Veterans General Hospital, Taichung, Taiwan; Center for Quality Management, Taichung Veterans General Hospital, Taichung, Taiwan; National Chung Hsing University, Taichung, Taiwan; School of Medicine, College of Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan."
+    },
+    {
+     "name": "Hsia SH",
+     "affiliation": "Physician Assistant Department, University of Maryland Eastern Shore, Princess Anne, MD, 21853, USA."
+    },
+    {
+     "name": "Chen CY",
+     "affiliation": "Department of Emergency Medicine, Tungs' Taichung Metro Harbor Hospital, Taichung, Taiwan; Post-Baccalaureate Medicine, National Chung Hsing University, Taichung, Taiwan. Electronic address: yoyo116984@gmail.com."
+    }
+   ],
+   "doi": "10.1016/j.pedneo.2026.06.006",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "use of procalcitonin in pediatric emergency department and critical care for bacterial infection diagnosis and antibiotic stewardship",
+   "exclude_reason": "",
+   "topics": [
+    "infection_fever"
+   ],
+   "design": "guideline",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Expert consensus provides guidance on PCT use but is not based on new high-level evidence.",
+    "total": 5
+   },
+   "research": {
+    "method_novelty": 0,
+    "question_novelty": 1,
+    "rigor": 0,
+    "generativity": 0,
+    "rationale": "Consensus statement with no new data or methods.",
+    "total": 1
+   },
+   "one_line": "Expert consensus recommends procalcitonin as an adjunctive biomarker for bacterial infection and antibiotic stewardship in pediatric emergency and critical care.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42843626",
+   "title": "Pre-Pandemic Trends Re-emerge in Pediatric Pedestrian Injury.",
+   "journal": "Acad Pediatr",
+   "journal_full": "Academic pediatrics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Disparities",
+    "Injury Prevention",
+    "Pedestrian",
+    "Trauma"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Peitzman C",
+     "affiliation": "Brigham and Women's Hospital (Mass General Brigham), Harvard Medical School, Boston, MA. Electronic address: cpeitzman@mgb.org."
+    },
+    {
+     "name": "Hall M",
+     "affiliation": "Children's Hospital Association, Washington DC."
+    },
+    {
+     "name": "Alpern E",
+     "affiliation": "Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, Chicago, IL."
+    },
+    {
+     "name": "Aronson P",
+     "affiliation": "Yale-New Haven Hospital, Yale University School of Medicine, New Haven, CT."
+    },
+    {
+     "name": "Geanacopoulos AT",
+     "affiliation": "Boston Children's Hospital, Harvard Medical School, Boston, MA."
+    },
+    {
+     "name": "Goyal MK",
+     "affiliation": "Children's National Hospital, George Washington University School of Medicine and Health Sciences, Washington, DC."
+    },
+    {
+     "name": "Gutman CK",
+     "affiliation": "University of Florida Health System, University of Florida College of Medicine, Gainesville, FL."
+    },
+    {
+     "name": "Hall J",
+     "affiliation": "Children's Hospital Los Angeles, Keck School of Medicine of the University of Southern California, Los Angeles, CA."
+    },
+    {
+     "name": "Kemal S",
+     "affiliation": "Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, Chicago, IL."
+    },
+    {
+     "name": "Neuman MI",
+     "affiliation": "Boston Children's Hospital, Harvard Medical School, Boston, MA."
+    },
+    {
+     "name": "Peltz A",
+     "affiliation": "Harvard Pilgrim Health Care Institute, Harvard Medical School, Boston, MA."
+    },
+    {
+     "name": "Rojas C",
+     "affiliation": "Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, Chicago, IL."
+    },
+    {
+     "name": "Shanahan K",
+     "affiliation": "Massachusetts General Hospital (Mass General Brigham), Harvard Medical School, Boston, MA."
+    },
+    {
+     "name": "Simon HK",
+     "affiliation": "Children's Healthcare of Atlanta, Emory School of Medicine, Atlanta, GA."
+    },
+    {
+     "name": "Wells JM",
+     "affiliation": "Nationwide Children's Hospital, Ohio State University College of Medicine, Columbus, OH."
+    },
+    {
+     "name": "Zamani M",
+     "affiliation": "Children's Hospital Association, Washington DC."
+    },
+    {
+     "name": "Samuels-Kalow M",
+     "affiliation": "Massachusetts General Hospital (Mass General Brigham), Harvard Medical School, Boston, MA."
+    }
+   ],
+   "doi": "10.1016/j.acap.2026.103443",
+   "pmcid": "",
+   "entry_date": "2026-10-07",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children aged ≤15 presenting to academic pediatric EDs with pedestrian injuries",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury",
+    "equity_access"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Provides epidemiological trend data on pediatric pedestrian ED visits but does not directly change acute management.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 3,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Uses interrupted time series on a large multicenter pediatric ED administrative database to characterize pandemic-related changes and disparities.",
+    "total": 7
+   },
+   "one_line": "Pediatric pedestrian injury ED visits fell sharply in 2020 then rebounded to pre-pandemic levels by 2023, driven by school-aged children.",
+   "summary": {
+    "why_it_matters": "Pediatric pedestrian injuries are a common ED presentation; understanding pandemic-related shifts and demographic patterns can guide injury prevention and ED resource planning.",
+    "design": "Retrospective interrupted time series of 19,958 pediatric pedestrian injury visits in the Pediatric Health Information System (2016-2023).",
+    "key_findings": "Annual volumes dropped from a mean of 2,743 to 1,789 in 2020 (897 fewer than expected), then rose by 259 visits/year to 2,570 by 2023. The rebound was driven by children aged 10-15. The proportion of non-White children and daytime presentations dipped in 2020 and returned toward pre-pandemic levels by 2023.",
+    "bottom_line": "The pandemic caused temporary, demographically patterned decreases in pediatric pedestrian ED visits; routine daily traffic exposure may be an important target for prevention."
+   },
+   "methods_note": "Pediatric Health Information System administrative data with interrupted time series analysis."
+  },
+  {
+   "pmid": "42839833",
+   "title": "Reporting of Sociodemographic and Equity-Related Factors in Emergency Department Pain Trials for Children: A Scoping Review.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "accident and emergency",
+    "distress",
+    "inequity",
+    "pain",
+    "racism",
+    "social determinants of health"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Kammerer E",
+     "affiliation": "Department of Pediatrics, Faculty of Medicine & Dentistry, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Ali S",
+     "affiliation": "Department of Pediatrics, Faculty of Medicine & Dentistry, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Basi C",
+     "affiliation": "Cumming School of Medicine, University of Calgary, Calgary."
+    },
+    {
+     "name": "Candelaria P",
+     "affiliation": "Department of Pediatrics, Faculty of Medicine & Dentistry, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Khangura JK",
+     "affiliation": "Department of Emergency Medicine, Cumming School of Medicine, University of Calgary, Calgary."
+    },
+    {
+     "name": "Kaahiye S",
+     "affiliation": "Faculty of Medicine and Dentistry, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Sapon L",
+     "affiliation": "Partner Researcher, Edmonton."
+    },
+    {
+     "name": "Iliscupidez L",
+     "affiliation": "Cumming School of Medicine, University of Calgary, Calgary."
+    },
+    {
+     "name": "Zelyck Z",
+     "affiliation": "Partner Researcher, Edmonton."
+    },
+    {
+     "name": "Elliott SA",
+     "affiliation": "Alberta Research Centre for Health Evidence, Department of Pediatrics, Faculty of Medicine and Dentistry, Edmonton."
+    },
+    {
+     "name": "Dennett L",
+     "affiliation": "Geoffrey and Robyn Sperber Health Sciences Library, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Ladha T",
+     "affiliation": "Department of Pediatrics, Faculty of Medicine & Dentistry, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Mayan M",
+     "affiliation": "School of Public Health, University of Alberta, Edmonton."
+    },
+    {
+     "name": "Scott S",
+     "affiliation": "Faculty of Nursing, University of Alberta, Edmonton, AB, Canada."
+    },
+    {
+     "name": "Ruzycki S",
+     "affiliation": "Cumming School of Medicine, University of Calgary, Calgary."
+    },
+    {
+     "name": "Hartling L",
+     "affiliation": "Women and Children's Health Research Institute, Faculty of Medicine and Dentistry, University of Alberta, Edmonton."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003717",
+   "pmcid": "",
+   "entry_date": "2026-10-07",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "RCTs evaluating acute pain interventions for children in the ED",
+   "exclude_reason": "",
+   "topics": [
+    "equity_access",
+    "sedation_analgesia_procedures"
+   ],
+   "design": "sr_ma",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "This is a research-reporting scoping review rather than a clinical intervention study, so it informs research standards more than immediate bedside decisions.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 2,
+    "question_novelty": 2,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "Applies the PROGRESS-Plus equity framework to a defined body of pediatric ED pain RCTs and quantifies reporting gaps with systematic methods.",
+    "total": 7
+   },
+   "one_line": "A scoping review of 65 pediatric ED pain RCTs found most report age and sex but rarely race, socioeconomic status, or residence.",
+   "summary": {
+    "why_it_matters": "Equity in pediatric ED pain care depends on knowing whether trial results apply across diverse groups; this review shows current trials cannot answer that.",
+    "design": "Scoping review following JBI methodology of 65 RCTs from 2013-2025 in Canada and the USA evaluating acute pain interventions for children in EDs.",
+    "key_findings": "All 65 trials reported age and 98% reported sex/gender, but only 40% reported race/ethnicity and 18% chronic illness/disability; none reported socioeconomic status or place of residence. Thirty-five trials addressed procedural pain and 30 addressed painful presentations.",
+    "bottom_line": "Standardized reporting of equity-relevant demographics is needed before pediatric ED pain evidence can be considered broadly applicable."
+   },
+   "methods_note": "Scoping review of 65 RCTs in pediatric ED pain using the PROGRESS-Plus framework."
+  },
+  {
+   "pmid": "42851727",
+   "title": "Disparities in adolescent mental health-related National Health Service presentations in England: a secondary school cohort study.",
+   "journal": "BMJ Public Health",
+   "journal_full": "BMJ public health",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Adolescent",
+    "Health Services Accessibility",
+    "Mental Health",
+    "Sociodemographic Factors"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Lewis KM",
+     "affiliation": "Great Ormond Street Institute of Child Health, UCL, London, UK."
+    },
+    {
+     "name": "Dale H",
+     "affiliation": "Bradford Teaching Hospitals NHS Foundation Trust, Bradford Institute for Health Research, Bradford, UK."
+    },
+    {
+     "name": "Lewer D",
+     "affiliation": "Bradford Teaching Hospitals NHS Foundation Trust, Bradford Institute for Health Research, Bradford, UK."
+    },
+    {
+     "name": "Méndez Pineda R",
+     "affiliation": "Great Ormond Street Institute of Child Health, UCL, London, UK."
+    },
+    {
+     "name": "Downs J",
+     "affiliation": "Population Health Improvement UK (PHI-UK), National Research Network, UK."
+    },
+    {
+     "name": "Blackburn RM",
+     "affiliation": "Great Ormond Street Institute of Child Health, UCL, London, UK."
+    }
+   ],
+   "doi": "10.1136/bmjph-2025-004281",
+   "pmcid": "PMC13646986",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "adolescent mental health-related ED attendances and hospital admissions in England",
+   "exclude_reason": "",
+   "topics": [
+    "mental_behavioral",
+    "equity_access",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Provides population-level data on disparities in adolescent mental health ED use, but does not directly change bedside practice.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 2,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Uses linked education-health records (ECHILD) to examine inequalities across multiple care settings, a novel data linkage for this question.",
+    "total": 6
+   },
+   "one_line": "Adolescent mental health service use, including ED attendances, varies by sex, ethnicity, deprivation, and region in England.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42833702",
+   "title": "Cardiac warning symptoms in paediatric out-of-hospital ventricular fibrillation cardiac arrest survivors.",
+   "journal": "Open Heart",
+   "journal_full": "Open heart",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Out-of-Hospital Cardiac Arrest",
+    "Child",
+    "Female",
+    "Male",
+    "Adolescent",
+    "Ventricular Fibrillation",
+    "Retrospective Studies",
+    "Survivors",
+    "Child, Preschool",
+    "Risk Factors",
+    "Incidence",
+    "Infant",
+    "Time Factors",
+    "Age Factors",
+    "United Kingdom",
+    "Cardiopulmonary Resuscitation",
+    "Survival Rate"
+   ],
+   "keywords": [
+    "Arrhythmias, Cardiac",
+    "Death, Sudden, Cardiac",
+    "Out-of-Hospital Cardiac Arrest"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Tollit J",
+     "affiliation": "Institute of Cardiovascular Science, University College London, London, UK."
+    },
+    {
+     "name": "Field E",
+     "affiliation": "Institute of Cardiovascular Science, University College London, London, UK."
+    },
+    {
+     "name": "Oates S",
+     "affiliation": "Centre for Inherited Cardiovascular Diseases, Great Ormond Street Hospital For Children NHS Foundation Trust, London, UK."
+    },
+    {
+     "name": "Norrish G",
+     "affiliation": "Institute of Cardiovascular Science, University College London, London, UK."
+    },
+    {
+     "name": "Cervi E",
+     "affiliation": "Institute of Cardiovascular Science, University College London, London, UK."
+    },
+    {
+     "name": "Starling L",
+     "affiliation": "Centre for Inherited Cardiovascular Diseases, Great Ormond Street Hospital For Children NHS Foundation Trust, London, UK."
+    },
+    {
+     "name": "Kaski JP",
+     "affiliation": "Institute of Cardiovascular Science, University College London, London, UK j.kaski@ucl.ac.uk."
+    }
+   ],
+   "doi": "10.1136/openhrt-2026-004412",
+   "pmcid": "PMC13647030",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "pediatric out-of-hospital cardiac arrest survivors and their preceding cardiac symptoms",
+   "topics": [
+    "cardiology",
+    "prehospital_ems"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 1,
+    "rationale": "Describes pre-arrest warning symptoms in pediatric OHCA survivors, supporting education and awareness rather than an immediate ED management change.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 3,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "First systematic description of preceding cardiac symptoms in pediatric OHCA survivors, though single-center and retrospective.",
+    "total": 6
+   },
+   "one_line": "Half of pediatric out-of-hospital cardiac arrest survivors had prior cardiac symptoms, often syncope, representing missed opportunities for diagnosis.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42852601",
+   "title": "Systemic Immune-Inflammation Index as a Predictor of Ovarian Necrosis in Children With Incarcerated Ovary Hernia: A Single-Centre Retrospective Study.",
+   "journal": "J Paediatr Child Health",
+   "journal_full": "Journal of paediatrics and child health",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "child",
+    "hernia",
+    "inflammation mediators",
+    "inguinal",
+    "necrosis",
+    "ovary"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Zhao G",
+     "affiliation": "Department of Paediatric Surgery, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, Yunnan, China."
+    },
+    {
+     "name": "Ke C",
+     "affiliation": "Department of Paediatric Orthopaedics, Shanghai Children's Hospital, Shanghai, China."
+    },
+    {
+     "name": "Zhang H",
+     "affiliation": "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, Yunnan, China."
+    },
+    {
+     "name": "Yang L",
+     "affiliation": "Department of Paediatric Surgery, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, Yunnan, China."
+    },
+    {
+     "name": "Zhao M",
+     "affiliation": "Department of Paediatric Surgery, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, Yunnan, China."
+    },
+    {
+     "name": "Zhao P",
+     "affiliation": "Department of Paediatric Surgery, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, Yunnan, China."
+    },
+    {
+     "name": "Yang Y",
+     "affiliation": "Department of Neurology, Dali Bai Autonomous Prefecture People's Hospital, Dali, Yunnan, China."
+    }
+   ],
+   "doi": "10.1111/jpc.70618",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with an incarcerated ovary hernia being evaluated for urgent surgery",
+   "exclude_reason": "",
+   "topics": [
+    "surgical_abdomen_gu"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Small single-center retrospective study; SII/NLR may support preoperative risk stratification but thresholds are exploratory and not yet practice-changing.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective biomarker study in a small cohort; external validation and prospective multicenter confirmation are needed.",
+    "total": 5
+   },
+   "one_line": "In children with incarcerated ovary hernia, NLR and SII predicted ovarian necrosis, but thresholds are exploratory and need external validation.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42849339",
+   "title": "Uniformed families, unequal outcomes?: A multicenter retrospective study of non-accidental trauma in military and civilian children.",
+   "journal": "Child Abuse Negl",
+   "journal_full": "Child abuse & neglect",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Child abuse",
+    "Child physical abuse",
+    "Military",
+    "Non-accidental trauma",
+    "Risk factors"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Patwardhan UM",
+     "affiliation": "Department of General Surgery, Naval Medical Center San Diego, San Diego, CA, United States of America; Division of Pediatric Surgery, Rady Children's Hospital San Diego, San Diego, CA, United States of America. Electronic address: Utsav.patwardhan@gmail.com."
+    },
+    {
+     "name": "Joskowitz K",
+     "affiliation": "Division of Pediatric Surgery, Rady Children's Hospital San Diego, San Diego, CA, United States of America. Electronic address: katiejoskowitz@gmail.com."
+    },
+    {
+     "name": "Escobar MA",
+     "affiliation": "Division of Pediatric Surgery, MultiCare Mary Bridge Children's Hospital, Tacoma, WA, United States of America. Electronic address: Tony.Escobar@multicare.org."
+    },
+    {
+     "name": "Gallagher M",
+     "affiliation": "Division of Pediatric Surgery, Monroe Carell Jr. Children's Hospital at Vanderbilt, Nashville, TN, United States of America. Electronic address: margaret.e.gallagher@vumc.org."
+    },
+    {
+     "name": "Scallon K",
+     "affiliation": "Division of Pediatric Surgery, Children's Nebraska, Omaha, NE, United States of America. Electronic address: kscallon@childrensnebraska.org."
+    },
+    {
+     "name": "Rooney AS",
+     "affiliation": "Division of Trauma Research, Scripps Mercy Hospital, San Diego, CA, United States of America. Electronic address: Rooney.Alexandra@scrippshealth.org."
+    },
+    {
+     "name": "Davenport K",
+     "affiliation": "Division of Pediatric Surgery, Children's Hospital of the King's Daughters, Norfolk, VA, United States of America. Electronic address: katherine.davenport@chkd.org."
+    },
+    {
+     "name": "Acker SN",
+     "affiliation": "Department of Pediatric Surgery, Children's Hospital Colorado, Denver, CO, United States of America. Electronic address: shannon.acker@childrenscolorado.org."
+    },
+    {
+     "name": "Vincent SA",
+     "affiliation": "Department of Pediatric Surgery, Children's Hospital Colorado, Denver, CO, United States of America. Electronic address: sage.vincent@cuanschutz.edu."
+    },
+    {
+     "name": "Pumiglia L",
+     "affiliation": "Division of Pediatric Surgery, MultiCare Mary Bridge Children's Hospital, Tacoma, WA, United States of America. Electronic address: luke.pumiglia@gmail.com."
+    },
+    {
+     "name": "Golden J",
+     "affiliation": "Division of Pediatric Surgery, Children's Hospital of the King's Daughters, Norfolk, VA, United States of America. Electronic address: Jamie.Golden@chkd.org."
+    },
+    {
+     "name": "Luo J",
+     "affiliation": "Division of Pediatric Surgery, Monroe Carell Jr. Children's Hospital at Vanderbilt, Nashville, TN, United States of America. Electronic address: Jason.luo@vanderbilt.edu."
+    },
+    {
+     "name": "Harvey CJ",
+     "affiliation": "Division of Pediatric Surgery, Kapiolani Medical Center for Women and Children, Honolulu, HI, United States of America. Electronic address: cjharv12@gmail.com."
+    },
+    {
+     "name": "Colosimo C",
+     "affiliation": "Department of Surgery, University of Arizona Tucson, Tucson, AZ, United States of America. Electronic address: Chris.Colosimo@gmail.com."
+    },
+    {
+     "name": "Sheckley M",
+     "affiliation": "Department of Surgery, University of Arizona Tucson, Tucson, AZ, United States of America. Electronic address: marwansheckley@arizona.edu."
+    },
+    {
+     "name": "Thomas P",
+     "affiliation": "Division of Pediatric Surgery, Children's Nebraska, Omaha, NE, United States of America. Electronic address: pathomas@childrensnebraska.org."
+    },
+    {
+     "name": "Woo R",
+     "affiliation": "Division of Pediatric Surgery, Kapiolani Medical Center for Women and Children, Honolulu, HI, United States of America. Electronic address: russell.woo@hphmg.org."
+    },
+    {
+     "name": "Nienow S",
+     "affiliation": "Division of Child Abuse Pediatrics, Dept of Pediatrics, University of California San Diego School of Medicine, La Jolla, CA, United States of America. Electronic address: SNienow@rchsd.org."
+    },
+    {
+     "name": "Ignacio RC",
+     "affiliation": "Division of Pediatric Surgery, Rady Children's Hospital San Diego, San Diego, CA, United States of America; Division of Pediatric Surgery, Dept of General Surgery, University of California San Diego School of Medicine, La Jolla, CA, United States of America. Electronic address: R1ignacio@health.ucsd.edu."
+    }
+   ],
+   "doi": "10.1016/j.chiabu.2026.108330",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with suspected non-accidental trauma",
+   "exclude_reason": "",
+   "topics": [
+    "child_protection"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Retrospective multicenter comparison of NAT outcomes in military vs civilian children; provides background on population differences but does not change immediate ED practice.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective design applied to a novel population (military dependents) with multicenter data; suggests follow-up on targeted screening.",
+    "total": 5
+   },
+   "one_line": "Military children with non-accidental trauma are younger and have longer hospital stays than civilian children, with similar mortality.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42844729",
+   "title": "Nitrous Oxide Use in Autistic Children: A Descriptive Study.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "anxiolysis",
+    "autism",
+    "nitrous oxide",
+    "pediatric emergency medicine",
+    "pediatric procedural sedation",
+    "sedation"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Reddy N",
+     "affiliation": "Warren Alpert Medical School, Masters in Medical Sciences, Brown University, Providence, RI."
+    },
+    {
+     "name": "Call N",
+     "affiliation": "Department of Pediatrics, Emory University School of Medicine and Children's Healthcare of Atlanta, Marcus Autism Center, Atlanta, GA."
+    },
+    {
+     "name": "Burger RK",
+     "affiliation": "Department of Pediatrics, Division of Emergency Medicine, Emory University School of Medicine and Children's Healthcare of Atlanta, Atlanta, GA."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003726",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "autistic children receiving nitrous oxide for procedural sedation in the ED or sedation unit",
+   "exclude_reason": "",
+   "topics": [
+    "sedation_analgesia_procedures"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Descriptive single-center safety data on nitrous oxide sedation in autistic children, but no comparator or practice-changing findings.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective descriptive design addressing a rarely studied population and suggesting prospective work.",
+    "total": 5
+   },
+   "one_line": "In 186 autistic children, nitrous oxide sedation in ED and sedation settings had rare adverse events (1.6%) and no vomiting or aborted procedures.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837494",
+   "title": "Pediatric Rural Interfacility Transfers by Emergency Medical Services.",
+   "journal": "Prehosp Emerg Care",
+   "journal_full": "Prehospital emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Emergency Medical Services",
+    "Patient Transfer",
+    "Pediatrics",
+    "Rural Health Services"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Morris CS",
+     "affiliation": "Division of Emergency Medicine, Nationwide Children's Hospital, Columbus, Ohio, USA."
+    },
+    {
+     "name": "Gaw CE",
+     "affiliation": "Division of Emergency Medicine, Nationwide Children's Hospital, Columbus, Ohio, USA."
+    },
+    {
+     "name": "Gage CB",
+     "affiliation": "Research Team, National Registry of Emergency Medical Technicians, Columbus, Ohio, USA."
+    },
+    {
+     "name": "Kadish CB",
+     "affiliation": "Division of Emergency Medicine, Nationwide Children's Hospital, Columbus, Ohio, USA."
+    },
+    {
+     "name": "Runkle AP",
+     "affiliation": "Division of Emergency Medicine, Nationwide Children's Hospital, Columbus, Ohio, USA."
+    },
+    {
+     "name": "Donofrio-Odman J",
+     "affiliation": "Department of Pediatrics and Emergency Medicine, University of California San Diego, San Diego, California, USA."
+    },
+    {
+     "name": "Panchal AR",
+     "affiliation": "Research Team, National Registry of Emergency Medical Technicians, Columbus, Ohio, USA."
+    }
+   ],
+   "doi": "10.1080/10903127.2026.2742416",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "pediatric patients undergoing rural interfacility transfer by EMS, informing prehospital transport preparedness",
+   "exclude_reason": "",
+   "topics": [
+    "prehospital_ems"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Descriptive national data on rural pediatric interfacility transfers; useful background for EMS planning but not practice-changing.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard analysis of a national EMS registry filling a gap in rural pediatric transfer data; descriptive but large.",
+    "total": 5
+   },
+   "one_line": "Nearly 30,000 rural pediatric interfacility transfers occurred in 2023, with age-related differences in diagnoses, transport level, and interventions.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853973",
+   "title": "Etiology, Clinical Features, and Outcomes of Acute Poisoning Among Children at a Provincial Pediatric Hospital in Vietnam: Retrospective Descriptive Study.",
+   "journal": "JMIR Form Res",
+   "journal_full": "JMIR formative research",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Retrospective Studies",
+    "Male",
+    "Child, Preschool",
+    "Vietnam",
+    "Infant",
+    "Female",
+    "Poisoning",
+    "Child",
+    "Adolescent",
+    "Hospitals, Pediatric",
+    "Acute Disease"
+   ],
+   "keywords": [
+    "accidental poisoning",
+    "acute poisoning",
+    "children",
+    "clinical outcomes",
+    "pediatric poisoning",
+    "toxic exposure"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Vu CT",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Pham TD",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Bui AT",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Dam HQ",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Lanh VH",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Chhengpay P",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Luu TH",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Luong TT",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Pham TTH",
+     "affiliation": "Thai Binh Pediatric Hospital, Hung Yen, Hung Yen, Vietnam."
+    },
+    {
+     "name": "To MM",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    },
+    {
+     "name": "Khuc VL",
+     "affiliation": "Thai Binh University of Medicine and Pharmacy, 373 Ly Bon, Hung Yen, Hưng Yên Province, Vietnam, 84 2273838545."
+    }
+   ],
+   "doi": "10.2196/97091",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with acute poisoning",
+   "topics": [
+    "toxicology"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Descriptive epidemiology of pediatric poisoning provides local prevention targets but does not change acute management.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Single-center retrospective descriptive study using standard methods; local context is the main contribution.",
+    "total": 4
+   },
+   "one_line": "In a Vietnamese pediatric hospital, acute poisoning mostly affected children aged 1-5 years, occurred at home, was unintentional, and most patients were discharged.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853395",
+   "title": "Renal trauma in a pediatric Level 1 trauma center: morbidity, mortality, and the role of renal scintigraphy.",
+   "journal": "Eur J Trauma Emerg Surg",
+   "journal_full": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Retrospective Studies",
+    "Radionuclide Imaging",
+    "Kidney",
+    "Male",
+    "Trauma Centers",
+    "Child",
+    "Wounds, Nonpenetrating",
+    "Child, Preschool",
+    "Netherlands",
+    "Adolescent",
+    "Hospital Mortality",
+    "Infant",
+    "Nephrectomy",
+    "Conservative Treatment",
+    "Embolization, Therapeutic"
+   ],
+   "keywords": [
+    "Follow-up studies",
+    "Hypertension",
+    "Kidney injuries",
+    "Pediatric trauma",
+    "Renal scintigraphy"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Jansen SAM",
+     "affiliation": "Department of Trauma Surgery, Radboud University Medical Center, Nijmegen, The Netherlands. sem.jansen@radboudumc.nl."
+    },
+    {
+     "name": "Haouli B",
+     "affiliation": "Department of Trauma Surgery, Radboud University Medical Center, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Backes M",
+     "affiliation": "Department of Pediatric Surgery, Radboud University Medical Center, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Tromp TN",
+     "affiliation": "Department of Trauma Surgery, Radboud University Medical Center, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Vriens D",
+     "affiliation": "Department of Medical Imaging, Section of Nuclear Medicine, Radboud University Medical Center, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Edwards MJR",
+     "affiliation": "Department of Trauma Surgery, Radboud University Medical Center, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Uitert AV",
+     "affiliation": "Department of Pediatric Urology, Radboud University Medical Center /Amalia Children's Hospital, Nijmegen, The Netherlands."
+    },
+    {
+     "name": "Nelen SD",
+     "affiliation": "Department of Trauma Surgery, Radboud University Medical Center, Nijmegen, The Netherlands."
+    }
+   ],
+   "doi": "10.1007/s00068-026-03341-y",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED/trauma center with renal trauma",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Retrospective single-center study of pediatric renal trauma; findings on conservative management and limited value of scintigraphy support follow-up decisions.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard retrospective cohort; adds data on scintigraphy utility, suggests long-term surveillance studies.",
+    "total": 4
+   },
+   "one_line": "In pediatric renal trauma, conservative management is common and renal scintigraphy has limited value for predicting long-term morbidity.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42836193",
+   "title": "Clinical and laboratory predictors of testicular loss in pediatric torsion patients.",
+   "journal": "Arab J Urol",
+   "journal_full": "Arab journal of urology",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Testicular torsion",
+    "clinical and laboratory parameters",
+    "pediatric patients",
+    "symptom duration",
+    "testicular salvage"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Zvizdic Z",
+     "affiliation": "Department of Pediatric Surgery, Clinical Center University of Sarajevo, Sarajevo, Bosnia and Herzegovina."
+    },
+    {
+     "name": "Glamoclija U",
+     "affiliation": "Scientific Research Unit, Bosnalijek d.d., Sarajevo, Bosnia and Herzegovina."
+    },
+    {
+     "name": "Jonuzi A",
+     "affiliation": "Department of Pediatric Surgery, Clinical Center University of Sarajevo, Sarajevo, Bosnia and Herzegovina."
+    },
+    {
+     "name": "Zvizdic N",
+     "affiliation": "Department of Anesthesiology and Intensive Care, Garmisch-Partenkirchen Medical Center, Garmisch-Partenkirchen, Germany."
+    },
+    {
+     "name": "Vranic S",
+     "affiliation": "College of Medicine, QU Health, Qatar University, Doha, Qatar."
+    }
+   ],
+   "doi": "10.1080/20905998.2026.2625609",
+   "pmcid": "PMC13637775",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with acute scrotum/testicular torsion",
+   "topics": [
+    "surgical_abdomen_gu"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Retrospective predictors of orchidectomy reinforce known urgency of prompt ED recognition and surgical referral, but do not change current practice.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard single-center retrospective design; CRP and preoperative preparation time as predictors offer modest new angles for further study.",
+    "total": 4
+   },
+   "one_line": "In pediatric testicular torsion, symptom duration >12 h, younger age, elevated CRP, and longer preoperative preparation time predicted orchidectomy.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42854008",
+   "title": "Outcomes of conservative and minimally invasive management in pediatric isolated blunt renal trauma: A retrospective cohort study.",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Wounds, Nonpenetrating",
+    "Retrospective Studies",
+    "Male",
+    "Kidney",
+    "Child",
+    "Female",
+    "Conservative Treatment",
+    "Treatment Outcome",
+    "Adolescent",
+    "Minimally Invasive Surgical Procedures",
+    "Blood Transfusion",
+    "Child, Preschool",
+    "Nephrectomy",
+    "Embolization, Therapeutic"
+   ],
+   "keywords": [
+    "blunt renal injury",
+    "pediatric trauma"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Demirdogen SO",
+     "affiliation": "Department of Urology, Ataturk University Medical Faculty, Erzurum, Turkey."
+    },
+    {
+     "name": "Cinislioglu AE",
+     "affiliation": "Department of Urology, University of Health Sciences, Erzurum Regional Training and Research Hospital, Erzurum, Turkey."
+    },
+    {
+     "name": "Koc E",
+     "affiliation": "Department of Urology, Ankara Yildirim Beyazit University, School of Medicine, Ankara Bilkent City Hospital, Ankara, Turkey."
+    },
+    {
+     "name": "Aksakalli T",
+     "affiliation": "Department of Urology, University of Health Sciences, Erzurum Regional Training and Research Hospital, Erzurum, Turkey."
+    },
+    {
+     "name": "Kurdal V",
+     "affiliation": "Department of Urology, Cizre State Hospital, Şirnak, Turkey."
+    },
+    {
+     "name": "Yildiz A",
+     "affiliation": "Department of Urology, Ataturk University Medical Faculty, Erzurum, Turkey."
+    },
+    {
+     "name": "Aydin F",
+     "affiliation": "Department of Radiology, Ataturk University Medical Faculty, Erzurum, Turkey."
+    },
+    {
+     "name": "Aksoy Y",
+     "affiliation": "Department of Pediatric Urology, Ataturk University Medical Faculty, Erzurum, Turkey."
+    },
+    {
+     "name": "Polat O",
+     "affiliation": "Department of Urology, Ataturk University Medical Faculty, Erzurum, Turkey."
+    }
+   ],
+   "doi": "10.1097/MD.0000000000051042",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with isolated blunt renal trauma",
+   "topics": [
+    "trauma_injury",
+    "surgical_abdomen_gu"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Retrospective single-center evidence supports conservative management of isolated blunt renal trauma but is too small to change practice.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard retrospective design with limited sample size; adds local data but no methodological novelty.",
+    "total": 3
+   },
+   "one_line": "In 28 children with isolated blunt renal trauma, conservative management was safe, with stable hemoglobin/creatinine and no hypertension; high-grade injuries needed more interventions.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853882",
+   "title": "Analysis of the spectrum of critical illnesses in the emergency department of Hebei Children's Hospital: A single-center study.",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Male",
+    "Child, Preschool",
+    "Child",
+    "Female",
+    "Infant",
+    "Adolescent",
+    "Emergency Service, Hospital",
+    "Critical Illness",
+    "Retrospective Studies",
+    "Infant, Newborn",
+    "China",
+    "Hospitals, Pediatric",
+    "Emergency Room Visits",
+    "Triage"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Wang X",
+     "affiliation": "Emergency Department, Hebei Children's Hospital, Hebei Clinical Research Center for Children's Health and Diseases, Shijiazhuang City, Hebei province, China."
+    },
+    {
+     "name": "Guo W",
+     "affiliation": "Emergency Department, Hebei Children's Hospital, Hebei Clinical Research Center for Children's Health and Diseases, Shijiazhuang City, Hebei province, China."
+    },
+    {
+     "name": "Guo Y",
+     "affiliation": "Hebei North College, Zhangjiakou City, Hebei province, China."
+    },
+    {
+     "name": "Hao P",
+     "affiliation": "Emergency Department, Hebei Children's Hospital, Hebei Clinical Research Center for Children's Health and Diseases, Shijiazhuang City, Hebei province, China."
+    },
+    {
+     "name": "Zhao P",
+     "affiliation": "Emergency Department, Hebei Children's Hospital, Hebei Clinical Research Center for Children's Health and Diseases, Shijiazhuang City, Hebei province, China."
+    },
+    {
+     "name": "Hao G",
+     "affiliation": "Emergency Department, Hebei Children's Hospital, Hebei Clinical Research Center for Children's Health and Diseases, Shijiazhuang City, Hebei province, China."
+    }
+   ],
+   "doi": "10.1371/journal.pone.0360675",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children triaged as level I or II in a pediatric ED",
+   "topics": [
+    "ed_operations_quality",
+    "resuscitation_critical",
+    "trauma_injury"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Single-center critical illness spectrum informs local resource planning but is not practice-changing.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard retrospective chart review; age/season patterns are descriptive and confirmatory.",
+    "total": 3
+   },
+   "one_line": "Among 1,450 critically ill children in a pediatric ED, neurologic illness, trauma, and respiratory disease predominated; seizure and drug poisoning were the most common diagnoses.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42848647",
+   "title": "Evaluation of infants aged 0-12 months admitted to the pediatric emergency department: the example of Batman Training And Research Hospital.",
+   "journal": "Rev Assoc Med Bras (1992)",
+   "journal_full": "Revista da Associacao Medica Brasileira (1992)",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Infant",
+    "Male",
+    "Retrospective Studies",
+    "Emergency Service, Hospital",
+    "Infant, Newborn",
+    "Female",
+    "Emergency Room Visits",
+    "Hospitalization",
+    "Patient Admission",
+    "Brazil",
+    "Ambulances"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Canpolat S",
+     "affiliation": "Ankara Kahramankazan State Hospital, Department of Pediatrics - Ankara, Turkey."
+    },
+    {
+     "name": "Nahya MK",
+     "affiliation": "Şanlıurfa Training and Research Hospital, Department of Pediatrics - Şanlıurfa, Turkey."
+    },
+    {
+     "name": "Dedeoğlu E",
+     "affiliation": "Şanlıurfa Training and Research Hospital, Department of Pediatrics - Şanlıurfa, Turkey."
+    },
+    {
+     "name": "Saka M",
+     "affiliation": "Uşak University, Department of Pediatrics - Uşak, Turkey."
+    },
+    {
+     "name": "Parlak ME",
+     "affiliation": "University of Health Sciences, Mersin City Education and Research Hospital, Department of Child Health and Diseases - Mersin, Turkey."
+    },
+    {
+     "name": "Aktı A",
+     "affiliation": "Istanbul University, Istanbul Faculty of Medicine, Department of Pediatrics, Division of Pediatric Nephrology - Istanbul, Turkey."
+    }
+   ],
+   "doi": "10.1590/1806-9282.20260588",
+   "pmcid": "PMC13649236",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "Infants transported by EMS to a pediatric emergency department",
+   "exclude_reason": "",
+   "topics": [
+    "prehospital_ems",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Descriptive single-center data on ambulance-transported infants; informs resource planning but does not change immediate clinical decisions.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard retrospective review of an EMS-ED cohort; confirmatory of known patterns.",
+    "total": 3
+   },
+   "one_line": "One in four infant ambulance transports to a single Turkish PED was non-urgent, yet 60% required hospitalization, mainly for respiratory distress and jaundice.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42846759",
+   "title": "Suicidality-Related Emergency Department Visits Among US Children and Adolescents, 2016-2022.",
+   "journal": "JAACAP Open",
+   "journal_full": "JAACAP open",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "ICD-10",
+    "adolescent mental health",
+    "emergency department utilization",
+    "pediatric suicidality",
+    "suicide attempts and self-harm"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Coskun AK",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    },
+    {
+     "name": "Palakollu MK",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    },
+    {
+     "name": "Dilsaver DB",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    },
+    {
+     "name": "Siva R",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    },
+    {
+     "name": "Horan M",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    },
+    {
+     "name": "Tampi RR",
+     "affiliation": "Creighton University School of Medicine, Omaha, Nebraska."
+    }
+   ],
+   "doi": "10.1016/j.jaacop.2026.06.006",
+   "pmcid": "PMC13643474",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children and adolescents presenting to US EDs with suicidality-related diagnoses",
+   "exclude_reason": "",
+   "topics": [
+    "mental_behavioral"
+   ],
+   "design": "cross_sectional",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Provides national trends in pediatric suicidality-related ED visits, useful for resource planning but not a direct practice change.",
+    "total": 4
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard descriptive analysis of a large national ED database; confirms known trends with updated data.",
+    "total": 3
+   },
+   "one_line": "Suicidality-related ED visits among US children and adolescents remained high from 2016 to 2022, especially among 10-14 year-olds.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42843627",
+   "title": "The association between race, ethnicity and presentation to a pediatric capable hospital.",
+   "journal": "Acad Pediatr",
+   "journal_full": "Academic pediatrics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "James DL",
+     "affiliation": "Department of Emergency Medicine, Massachusetts General Hospital, Boston, MA, United States. Electronic address: dljames@mgh.harvard.edu."
+    },
+    {
+     "name": "Cash RE",
+     "affiliation": "Department of Emergency Medicine, Massachusetts General Hospital, Boston, MA, United States."
+    },
+    {
+     "name": "Michelson KA",
+     "affiliation": "Ann & Robert H Lurie Children's Hospital of Chicago, Chicago, IL, United States."
+    },
+    {
+     "name": "Wolk CB",
+     "affiliation": "Perelman School of Medicine, Department of Psychiatry, University of Pennsylvania, Philadelphia, PA, United States."
+    },
+    {
+     "name": "Alpern ER",
+     "affiliation": "Division of Emergency Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital, Northwestern University Feinberg School of Medicine, Chicago, IL, United States."
+    },
+    {
+     "name": "Camargo CA",
+     "affiliation": "Department of Emergency Medicine, Massachusetts General Hospital, Boston, MA, United States."
+    },
+    {
+     "name": "Samuels-Kalow M",
+     "affiliation": "Department of Emergency Medicine, Massachusetts General Hospital, Boston, MA, United States."
+    }
+   ],
+   "doi": "10.1016/j.acap.2026.103466",
+   "pmcid": "",
+   "entry_date": "2026-10-07",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED and the pediatric capability of the initial hospital they present to",
+   "exclude_reason": "",
+   "topics": [
+    "ed_operations_quality",
+    "equity_access"
+   ],
+   "design": "cross_sectional",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Large administrative equity study that informs policy and ED readiness planning rather than a direct bedside decision.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 2,
+    "question_novelty": 2,
+    "rigor": 2,
+    "generativity": 1,
+    "rationale": "Novel linkage of national ED inventory data with pediatric readiness and PECC surveys to examine disparities in access to pediatric-capable EDs, with large sample and adjusted analyses.",
+    "total": 7
+   },
+   "one_line": "Black and Hispanic children were more likely than White children to first present to EDs with pediatric emergency care coordinators or inpatient pediatric capability.",
+   "summary": {
+    "why_it_matters": "Pediatric readiness varies by hospital, and this study shows that race and ethnicity are associated with where children first present for emergency care, with implications for equity.",
+    "design": "Cross-sectional linkage of 2019 national ED inventory, state ED/inpatient databases, and pediatric readiness/PECC surveys, with logistic regression.",
+    "key_findings": "Among over 2 million ED visits, non-Hispanic Black and Hispanic children had higher unadjusted odds of presenting to high-readiness hospitals, hospitals with a PECC, and hospitals with inpatient pediatric capability; after adjustment, Black children had higher odds of inpatient capability and Hispanic children of PECC presence.",
+    "bottom_line": "PECCs and pediatric-capable hospitals may be serving a disproportionate share of minority children; ensuring readiness across all hospitals could reduce disparities."
+   },
+   "methods_note": "National ED inventory and state databases linked to pediatric readiness/PECC surveys; cross-sectional logistic regression."
+  },
+  {
+   "pmid": "42831767",
+   "title": "Characterization of injuries related to bicycle crashes in urban environments.",
+   "journal": "Traffic Inj Prev",
+   "journal_full": "Traffic injury prevention",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Bicycle crashes",
+    "fuzzy clustering",
+    "particle swarm optimization (PSO)",
+    "pearson correlation",
+    "severity of injuries"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Sıkar RB",
+     "affiliation": "Faculty of Engineering, Department of Civil Engineering, Istanbul University-Cerrahpaşa, Istanbul, Türkiye."
+    },
+    {
+     "name": "Bezgin NÖ",
+     "affiliation": "Faculty of Engineering, Department of Civil Engineering, Istanbul University-Cerrahpaşa, Istanbul, Türkiye."
+    },
+    {
+     "name": "Ferhatlar E",
+     "affiliation": "Department of Emergency Medicine, Health Sciences University, Bagcilar Training and Research Hospital, Istanbul, Türkiye."
+    },
+    {
+     "name": "Demirci B",
+     "affiliation": "Department of Emergency Medicine, Health Sciences University, Bagcilar Training and Research Hospital, Istanbul, Türkiye."
+    }
+   ],
+   "doi": "10.1080/15389588.2026.2739460",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children and young adults presenting to the ED with bicycle-related injuries",
+   "topics": [
+    "trauma_injury",
+    "ed_operations_quality"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": true,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Exploratory clustering of ED bicycle injury cases; may inform triage and prevention but no direct clinical decision impact.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 3,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Applies fuzzy clustering with SHAP to ED injury surveillance, an uncommon approach in PEM, but single-center and exploratory.",
+    "total": 7
+   },
+   "one_line": "Fuzzy clustering of 698 ED bicycle-crash cases identified four injury profiles, with adolescents injured in evening/night having the highest ICU admission rate.",
+   "summary": {
+    "why_it_matters": "Bicycle injuries are a common ED presentation; identifying distinct injury phenotypes could help target prevention and anticipate resource needs.",
+    "design": "Retrospective analysis of 698 ED bicycle-injury cases in Istanbul using PSO-guided fuzzy clustering, with Random Forest and SHAP for post-hoc description.",
+    "key_findings": "Four profiles emerged: evening/night adolescents (mean age 14) had the highest ICU admission rate (9.8%); school-age afternoon cases were mostly discharged (96.3%); young adults had the most fractures (25.9%).",
+    "bottom_line": "Bicycle ED injury patterns are heterogeneous; these exploratory phenotypes need external validation before use in triage or surveillance."
+   },
+   "methods_note": "Single-center ED registry in Istanbul; PSO-FCM fuzzy clustering with Random Forest/SHAP post-hoc."
+  },
+  {
+   "pmid": "42834325",
+   "title": "Neighborhood Variation in Childhood Asthma Emergency Department Visit Rates in Austin, Texas, Is Associated with Tenant-Reported Housing Conditions.",
+   "journal": "J Urban Health",
+   "journal_full": "Journal of urban health : bulletin of the New York Academy of Medicine",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Environmental justice",
+    "Housing conditions",
+    "Population health",
+    "Spatial analysis"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Li Z",
+     "affiliation": "Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+    },
+    {
+     "name": "Zarate RA",
+     "affiliation": "Dell Medical School, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Carryl S",
+     "affiliation": "Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+    },
+    {
+     "name": "Leclercq A",
+     "affiliation": "Jackson School of Geoscience, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Balcer-Whaley S",
+     "affiliation": "Dell Medical School, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Bhavnani D",
+     "affiliation": "Dell Medical School, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Chambliss SE",
+     "affiliation": "Dell Medical School, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Mueller EJ",
+     "affiliation": "Community and Regional Planning, The University of Texas at Austin, Austin, TX, USA."
+    },
+    {
+     "name": "Samuels E",
+     "affiliation": "School of Medicine, University of California, Los Angeles, CA, USA."
+    },
+    {
+     "name": "Matsui E",
+     "affiliation": "Dell Medical School, The University of Texas at Austin, Austin, TX, USA. elizabeth.matsui@austin.utexas.edu."
+    },
+    {
+     "name": "Haber AL",
+     "affiliation": "Harvard T.H. Chan School of Public Health, Boston, MA, USA. ahaber@hsph.harvard.edu."
+    }
+   ],
+   "doi": "10.1007/s11524-026-01160-5",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "childhood asthma ED visit rates at the neighborhood level",
+   "topics": [
+    "respiratory",
+    "equity_access"
+   ],
+   "design": "cross_sectional",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Ecological study of housing complaints and asthma ED visits; informs public health priorities rather than immediate PED decisions.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 2,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Links novel housing-code complaint data to ED visit rates at block-group level, a transferable method for studying social determinants of pediatric emergencies.",
+    "total": 6
+   },
+   "one_line": "Neighborhood tenant-reported housing problems were associated with higher childhood asthma ED visit rates in Austin, suggesting housing quality affects asthma emergencies.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42852031",
+   "title": "Injury patients presenting to the emergency department: a retrospective state-based comparative analysis of Illinois, USA, and Victoria, Australia.",
+   "journal": "BMJ Public Health",
+   "journal_full": "BMJ public health",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Emergencies",
+    "Public Health",
+    "Sociodemographic Factors",
+    "statistics and numerical data"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Shannon B",
+     "affiliation": "School of Public Health, Environmental and Occupational Health Sciences, University of Illinois Chicago, Chicago, Illinois, USA."
+    },
+    {
+     "name": "Friedman L",
+     "affiliation": "School of Public Health, Environmental and Occupational Health Sciences, University of Illinois Chicago, Chicago, Illinois, USA."
+    },
+    {
+     "name": "Berecki-Gisolf J",
+     "affiliation": "Monash Injury Research Institute, Monash University, Melbourne, Victoria, Australia."
+    }
+   ],
+   "doi": "10.1136/bmjph-2026-005372",
+   "pmcid": "PMC13646965",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "all injury-related ED presentations in Illinois and Victoria, including pediatric age groups",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Epidemiologic comparison of injury ED presentations with no direct clinical decision impact.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Large binational administrative comparison using standard methods but a novel cross-system question.",
+    "total": 5
+   },
+   "one_line": "Injury-related ED visit rates and severity differed markedly between Illinois and Victoria, with Illinois children aged 0-4 at highest risk.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42831496",
+   "title": "Prehospital Births in the Region of Southern Denmark-A Cohort From 2016 to 2024.",
+   "journal": "Acta Anaesthesiol Scand",
+   "journal_full": "Acta anaesthesiologica Scandinavica",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Denmark",
+    "Emergency Medical Services",
+    "Female",
+    "Cross-Sectional Studies",
+    "Pregnancy",
+    "Ambulances",
+    "Infant, Newborn",
+    "Cohort Studies",
+    "Adult",
+    "Delivery, Obstetric"
+   ],
+   "keywords": [
+    "ambulances",
+    "emergency medical system",
+    "prehospital births"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Pedersen LL",
+     "affiliation": "Prehospital Research Unit, Prehospital South - EMS, Region of Southern Denmark, Odense, Denmark."
+    },
+    {
+     "name": "Christensen HC",
+     "affiliation": "Prehospital Center, Naestved, Region Zealand, Denmark."
+    },
+    {
+     "name": "Jørgensen JS",
+     "affiliation": "Institute for Clinical Research, Faculty of Health Sciences, University of Southern Denmark, Odense, Denmark."
+    },
+    {
+     "name": "Gradman J",
+     "affiliation": "Institute for Clinical Research, Faculty of Health Sciences, University of Southern Denmark, Odense, Denmark."
+    },
+    {
+     "name": "Wolthers SA",
+     "affiliation": "Prehospital Center, Naestved, Region Zealand, Denmark."
+    },
+    {
+     "name": "Mikkelsen S",
+     "affiliation": "Prehospital Research Unit, Prehospital South - EMS, Region of Southern Denmark, Odense, Denmark."
+    }
+   ],
+   "doi": "10.1111/aas.70351",
+   "pmcid": "PMC13636607",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "prehospital EMS management of unplanned out-of-hospital births and neonatal resuscitation",
+   "exclude_reason": "",
+   "topics": [
+    "prehospital_ems",
+    "resuscitation_critical"
+   ],
+   "design": "cross_sectional",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Descriptive epidemiology of rare prehospital births; mainly informs training considerations rather than immediate practice change.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Population-based regional EMS record review quantifies a rarely studied prehospital event and suggests training follow-up.",
+    "total": 5
+   },
+   "one_line": "Unplanned prehospital births are rare (0.03% of ambulance missions); most are uncomplicated, but neonatal resuscitation is occasionally needed.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42847661",
+   "title": "Nurses' experiences with pain and fear among preschool children admitted to the emergency department.",
+   "journal": "J Child Health Care",
+   "journal_full": "Journal of child health care : for professionals working with children in the hospital and community",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "acute care",
+    "child health",
+    "emergency nursing",
+    "emergency service",
+    "hospital",
+    "pain",
+    "parents"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Würtz GMF",
+     "affiliation": "Department of Pediatrics, Herlev and Gentofte University Hospital, Herlev, Denmark."
+    },
+    {
+     "name": "Deininger M",
+     "affiliation": "Department of Civil and Mechanical Engineering, Technical University of Denmark, Lyngby, Denmark."
+    },
+    {
+     "name": "Bækgaard P",
+     "affiliation": "Department of Applied Mathematics and Computer Science, Technical University of Denmark, Lyngby, Denmark."
+    },
+    {
+     "name": "Johannesen J",
+     "affiliation": "Department of Pediatrics, Herlev and Gentofte University Hospital, Herlev, Denmark."
+    },
+    {
+     "name": "Konradsen H",
+     "affiliation": "Copenhagen Diabetes Research Center, Herlev, Denmark."
+    }
+   ],
+   "doi": "10.1177/13674935261496348",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "nurses caring for acutely ill preschool children in the emergency department",
+   "exclude_reason": "",
+   "topics": [
+    "sedation_analgesia_procedures",
+    "ed_operations_quality"
+   ],
+   "design": "qualitative",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Qualitative study of nurse experiences provides background on pain/fear management but no direct practice change.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard qualitative thematic analysis; highlights training and workflow improvement opportunities.",
+    "total": 4
+   },
+   "one_line": "Nurses in Danish EDs describe intertwined pain and fear in preschoolers and the need for relational strategies and parent involvement.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42844752",
+   "title": "Feasibility of Collaborative Assessment and Management of Suicidality-Brief Intervention in an Emergency Department With Youth Who Are Suicidal.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "behavioral health",
+    "suicide prevention"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Reid M",
+     "affiliation": "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA."
+    },
+    {
+     "name": "Fernandez F",
+     "affiliation": "Department of Psychology, The Catholic University of America."
+    },
+    {
+     "name": "Gerner J",
+     "affiliation": "Department of Psychology, The Catholic University of America."
+    },
+    {
+     "name": "Tucker R",
+     "affiliation": "Department of Psychology, Louisiana State University."
+    },
+    {
+     "name": "Morris CR",
+     "affiliation": "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA."
+    },
+    {
+     "name": "Constantino J",
+     "affiliation": "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA."
+    },
+    {
+     "name": "Jobes DA",
+     "affiliation": "Department of Psychology, The Catholic University of America."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003719",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "youth presenting to the ED with suicidal thoughts and behaviors",
+   "exclude_reason": "",
+   "topics": [
+    "mental_behavioral"
+   ],
+   "design": "prospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Pilot feasibility data, but no control group, so it does not change practice.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 0,
+    "generativity": 1,
+    "rationale": "Standard pilot design, but novel application of CAMS-BI to pediatric ED suicidal youth; suggests larger trials.",
+    "total": 4
+   },
+   "one_line": "A pilot study found CAMS-BI feasible in a pediatric ED for suicidal youth, reducing distress and ED returns.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42838865",
+   "title": "Global Rate of Bystander Cardiopulmonary Resuscitation in Out-of-Hospital Cardiac Arrest: A Systematic Review and Meta-Analysis.",
+   "journal": "Heart Lung Circ",
+   "journal_full": "Heart, lung & circulation",
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Bystander",
+    "Cardiopulmonary resuscitation",
+    "Meta-analysis",
+    "Out-of-hospital cardiac arrest",
+    "Systematic review"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Shen L",
+     "affiliation": "Critical Care Center, Hospital of Honghe State affiliated to Kunming Medical University, Mengzi, Yunnan Province, China."
+    },
+    {
+     "name": "Chen C",
+     "affiliation": "Critical Care Center, Southern Central Hospital of Yunnan province (The first People's Hospital of Honghe State), Mengzi, Yunnan Province, China."
+    },
+    {
+     "name": "Long L",
+     "affiliation": "Critical Care Center, Southern Central Hospital of Yunnan province (The first People's Hospital of Honghe State), Mengzi, Yunnan Province, China."
+    },
+    {
+     "name": "Su X",
+     "affiliation": "Critical Care Center, Hospital of Honghe State affiliated to Kunming Medical University, Mengzi, Yunnan Province, China."
+    },
+    {
+     "name": "Xie H",
+     "affiliation": "Critical Care Center, Southern Central Hospital of Yunnan province (The first People's Hospital of Honghe State), Mengzi, Yunnan Province, China."
+    },
+    {
+     "name": "Dai J",
+     "affiliation": "Critical Care Center, Hospital of Honghe State affiliated to Kunming Medical University, Mengzi, Yunnan Province, China. Electronic address: Emergency2025@163.com."
+    }
+   ],
+   "doi": "10.1016/j.hlc.2026.04.121",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "bystander CPR in out-of-hospital cardiac arrest, including pediatric patients, in the prehospital/emergency setting",
+   "exclude_reason": "",
+   "topics": [
+    "resuscitation_critical",
+    "prehospital_ems"
+   ],
+   "design": "sr_ma",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Provides global prevalence data on bystander CPR but does not directly change ED management decisions.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Large meta-analysis with standard methods; confirms known disparities and suggests targeted interventions.",
+    "total": 4
+   },
+   "one_line": "Global bystander CPR rate is 32%, lower in low-income countries and residential settings, and higher in children than adults.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42848355",
+   "title": "Knowledge and Anxiety Levels of Parents of Children Admitted to the Emergency Department due to Intoxication.",
+   "journal": "J Emerg Nurs",
+   "journal_full": "Journal of emergency nursing",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Intoxication",
+    "Nurse",
+    "Parental anxiety",
+    "Pediatric emergency",
+    "Pediatrics"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Selçuk D",
+     "affiliation": ""
+    },
+    {
+     "name": "Köse S",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1016/j.jen.2026.07.008",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "Parents of children presenting to the ED for acute poisoning",
+   "exclude_reason": "",
+   "topics": [
+    "toxicology"
+   ],
+   "design": "cross_sectional",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Survey of parental knowledge and anxiety in pediatric poisoning; mostly descriptive, unlikely to change ED practice directly.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard cross-sectional survey; adds local data on an already described topic.",
+    "total": 3
+   },
+   "one_line": "In a Turkish PED, parents' knowledge about childhood poisoning was moderate and inversely related to their anxiety level.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42841894",
+   "title": "Ocular trauma presentations to a tertiary emergency department: Demographic characteristics, injury mechanisms, and clinical outcomes.",
+   "journal": "Ulus Travma Acil Cerrahi Derg",
+   "journal_full": "Ulusal travma ve acil cerrahi dergisi = Turkish journal of trauma & emergency surgery : TJTES",
+   "pub_types": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Male",
+    "Female",
+    "Adult",
+    "Retrospective Studies",
+    "Emergency Service, Hospital",
+    "Eye Injuries",
+    "Middle Aged",
+    "Young Adult",
+    "Turkey",
+    "Adolescent",
+    "Aged",
+    "Child",
+    "Child, Preschool",
+    "Tertiary Care Centers",
+    "Emergency Room Visits",
+    "Infant"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Demir H",
+     "affiliation": "Department of Emergency Medicine, Göztepe Prof. Dr. Süleyman Yalçın City Hospital, İstanbul-Türkiye."
+    },
+    {
+     "name": "Al B",
+     "affiliation": "Department of Emergency Medicine, Göztepe Prof. Dr. Süleyman Yalçın City Hospital, İstanbul-Türkiye."
+    }
+   ],
+   "doi": "10.14744/tjtes.2026.62393",
+   "pmcid": "",
+   "entry_date": "2026-10-07",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "patients presenting to a tertiary emergency department with ocular trauma, including children",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "retrospective_cohort",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 1,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Retrospective single-center descriptive study; provides background epidemiology of ED ocular trauma but no direct practice-changing findings.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 0,
+    "rationale": "Standard retrospective chart review with a large sample; descriptive and mostly adult, so limited methodological novelty for PEM researchers.",
+    "total": 3
+   },
+   "one_line": "In a tertiary ED, ocular trauma mostly affected young males with foreign bodies; children under 9 had higher hospitalization rates.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42830642",
+   "title": "Pediatric Patients-Are Sometimes Just Small Adults.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "community emergency departments",
+    "emergency department preparedness",
+    "pediatric emergency care",
+    "pediatric emergency medicine",
+    "pediatric readiness",
+    "systems preparedness"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Oboli VN",
+     "affiliation": "Section of Pediatric Emergency Medicine, Department of Pediatrics, Yale School of Medicine, New Haven, CT."
+    },
+    {
+     "name": "Auerbach M",
+     "affiliation": "Section of Pediatric Emergency Medicine, Department of Pediatrics, Yale School of Medicine, New Haven, CT."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003720",
+   "pmcid": "",
+   "entry_date": "2026-10-05",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "emergency departments caring for children and pediatric readiness infrastructure",
+   "exclude_reason": "",
+   "topics": [
+    "ed_operations_quality",
+    "education_workforce"
+   ],
+   "design": "other",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Commentary without data; reinforces pediatric readiness as a system-level priority rather than changing a specific clinical decision.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 0,
+    "question_novelty": 1,
+    "rigor": 0,
+    "generativity": 1,
+    "rationale": "Conceptual reframing may inspire implementation studies of pediatric readiness, but it presents no new methods or data.",
+    "total": 2
+   },
+   "one_line": "A special feature argues that pediatric readiness should be essential infrastructure in every emergency department, not just children's hospitals.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42853192",
+   "title": "Sleeve fractures of the patella: current concepts in diagnosis and surgical management.",
+   "journal": "Curr Opin Pediatr",
+   "journal_full": "Current opinion in pediatrics",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "extensor mechanism injury",
+    "inferior pole patella",
+    "patella sleeve fracture",
+    "pediatric knee",
+    "transosseous fixation"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Simpson AG",
+     "affiliation": "Lerner Children's Pavilion, Hospital for Special Surgery, New York, New York, USA."
+    },
+    {
+     "name": "Green DW",
+     "affiliation": ""
+    }
+   ],
+   "doi": "10.1097/MOP.0000000000001630",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to the ED with knee injury, diagnosis of patella sleeve fracture",
+   "exclude_reason": "",
+   "topics": [
+    "trauma_injury"
+   ],
+   "design": "narrative_review",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 2,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Clinical review highlighting recognition and management of patella sleeve fractures, often missed in ED.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 0,
+    "question_novelty": 0,
+    "rigor": 0,
+    "generativity": 1,
+    "rationale": "Narrative review summarizing current concepts; suggests need for comparative trials.",
+    "total": 1
+   },
+   "one_line": "Patella sleeve fractures are often missed; recognition relies on exam, and outcomes depend on timely diagnosis.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837580",
+   "title": "Toxicology 101: Identification and Initial Management of Common Accidental Ingestions.",
+   "journal": "Pediatr Ann",
+   "journal_full": "Pediatric annals",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Accidents, Home",
+    "Foreign Bodies",
+    "Poisoning"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Hong D",
+     "affiliation": "Pediatric Emergency Medicine Fellow, University of Texas Southwestern, Children's Medical Center Dallas, Texas."
+    }
+   ],
+   "doi": "10.3928/19382359-20260915-02",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children with accidental ingestions presenting to the ED or urgent care for initial assessment and poison control guidance",
+   "exclude_reason": "",
+   "topics": [
+    "toxicology"
+   ],
+   "design": "narrative_review",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 2,
+    "novelty": 0,
+    "rationale": "Educational review summarizing initial management of common ingestions; provides background rather than new evidence.",
+    "total": 3
+   },
+   "research": {
+    "method_novelty": 0,
+    "question_novelty": 0,
+    "rigor": 0,
+    "generativity": 0,
+    "rationale": "Standard narrative review with no novel methods or questions.",
+    "total": 0
+   },
+   "one_line": "A clinical review covering identification and initial management of common accidental ingestions in children.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42844740",
+   "title": "Autonomy in Fellowship Training and Its Influence on Self-Reported Self-Efficacy in Pediatric Emergency Medicine.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "autonomy",
+    "fellowship training",
+    "graduate medical education",
+    "medical education",
+    "self-efficacy"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Garbin S",
+     "affiliation": "Loyola University Medical Center Department of Emergency Medicine, Loyola University Chicago Stritch School of Medicine, Chicago, IL."
+    },
+    {
+     "name": "Sheridan MJ",
+     "affiliation": "Inova Children's Hospital Department of Pediatrics, Falls Church, VA."
+    },
+    {
+     "name": "Eckerle M",
+     "affiliation": "Cincinnati Children's Hospital Department of Pediatrics, Division of Emergency Medicine, Cincinnati, OH."
+    },
+    {
+     "name": "Benedict FT",
+     "affiliation": "Children's Mercy Hospital Department of Pediatrics, UMKC School of Medicine, Kansas City, MO."
+    },
+    {
+     "name": "Ganis Roskind C",
+     "affiliation": "Columbia University Irving Medical Center/New York Presbyterian Morgan Stanley Children's Hospital Department of Emergency Medicine, New York, NY."
+    },
+    {
+     "name": "Baghdassarian A",
+     "affiliation": "Inova Children's Hospital Department of Pediatrics, Falls Church, VA."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003721",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "PEM fellowship training",
+   "exclude_reason": "",
+   "topics": [
+    "education_workforce"
+   ],
+   "design": "survey",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Survey-based study on fellowship autonomy and self-efficacy; implications for training, not direct patient care.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard survey methodology applied to a novel question about autonomy in PEM fellowship and self-efficacy.",
+    "total": 5
+   },
+   "one_line": "Autonomy during PEM fellowship was not associated with self-efficacy gains; self-efficacy improved over time regardless.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42838234",
+   "title": "Utilisation of poison information services for paediatric snakebites in rural Sri Lanka.",
+   "journal": "Toxicon",
+   "journal_full": "Toxicon : official journal of the International Society on Toxinology",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "Sri Lanka",
+    "clinical decision-making",
+    "paediatric envenoming",
+    "poison information service",
+    "snakebite"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Dayasiri K",
+     "affiliation": "Department of Paediatrics, Faculty of Medicine, University of Kelaniya, Ragama, Sri Lanka. Electronic address: kavindadayasiri@gmail.com."
+    },
+    {
+     "name": "Umanga K",
+     "affiliation": "Department of Paediatrics, Faculty of Medicine, University of Kelaniya, Ragama, Sri Lanka."
+    },
+    {
+     "name": "Thadchanamoorthy V",
+     "affiliation": "Department of Clinical Sciences, Faculty of Healthcare Sciences, Eastern University of Sri Lanka, Batticaloa, Sri Lanka."
+    },
+    {
+     "name": "Nitescu V",
+     "affiliation": "Grigore Alexandrescu\" Emergency Clinical Hospital for Children, Bucharest, Romania."
+    }
+   ],
+   "doi": "10.1016/j.toxicon.2026.109317",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "physicians managing paediatric snakebites in rural hospitals, likely in emergency settings",
+   "topics": [
+    "toxicology"
+   ],
+   "design": "qualitative",
+   "multicenter": true,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Provides insights into use of poison information services but does not change clinical practice directly.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Qualitative study on a rarely examined question; could inform service design.",
+    "total": 5
+   },
+   "one_line": "Physicians in rural Sri Lanka use poison information services for paediatric snakebites mainly in uncertain cases, but barriers include limited availability and connectivity.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42852981",
+   "title": "Evaluation of artificial intelligence chatbots for generating management plans in paediatric intensive care and pulmonology cases: A comparative study.",
+   "journal": "Trop Doct",
+   "journal_full": "Tropical doctor",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "AI chatbot",
+    "Artificial intelligence",
+    "Paediatric Emergency"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Takia L",
+     "affiliation": "Assistant Professor, Department of Paediatrics, NCI, All India Institute of Medical Sciences, New Delhi, India."
+    },
+    {
+     "name": "Godhwal P",
+     "affiliation": "Senior Resident, Department of Anaesthesia, Critical Care and Pain, All India Institute of Medical Sciences, New Delhi, India."
+    },
+    {
+     "name": "Mishra V",
+     "affiliation": "Assistant Professor, Department of Paediatrics, NCI, All India Institute of Medical Sciences, New Delhi, India."
+    },
+    {
+     "name": "Das D",
+     "affiliation": "Assistant Professor, Department of Ophthalmology, NCI, All India Institute of Medical Sciences, New Delhi, India."
+    },
+    {
+     "name": "Narayan A",
+     "affiliation": "Assistant Professor, Department of Medicine, NCI, All India Institute of Medical Sciences, New Delhi, India."
+    }
+   ],
+   "doi": "10.1177/00494755261493668",
+   "pmcid": "",
+   "entry_date": "2026-10-09",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "AI chatbot-generated management plans for pediatric emergency (and pulmonology/intensive care) cases, as a potential ED decision-support tool.",
+   "exclude_reason": "",
+   "topics": [
+    "other"
+   ],
+   "design": "simulation",
+   "multicenter": false,
+   "pocus": false,
+   "ai": true,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Comparative evaluation of chatbot outputs on hypothetical pediatric emergency and ICU cases, with no patient outcomes or reported results to guide practice.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 0,
+    "generativity": 1,
+    "rationale": "Standard head-to-head chatbot comparison applied to pediatric emergency vignettes, but the abstract reports no results or validation.",
+    "total": 4
+   },
+   "one_line": "Four AI chatbots were compared on accuracy, completeness, readability and real-world applicability of treatment plans for pediatric pulmonology, intensive care and emergency cases.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42847919",
+   "title": "Finnish Paramedics' Self-Assessed Competence in Paediatric and Neonatal Care: A Nationwide Survey of Education, Training and Development Needs.",
+   "journal": "Acta Paediatr",
+   "journal_full": "Acta paediatrica (Oslo, Norway : 1992)",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "EMS education",
+    "clinical competence",
+    "emergency medical service",
+    "neonatal prehospital care",
+    "paediatric prehospital care",
+    "self‐assessed competence"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Kaartinen M",
+     "affiliation": "Institute of Clinical Medicine, University of Eastern Finland, Kuopio, Finland."
+    },
+    {
+     "name": "Laapio-Rapi E",
+     "affiliation": "Faculty of Health and Social Services, LAB University of Applied Sciences, Lappeenranta, Finland."
+    },
+    {
+     "name": "Kuitunen I",
+     "affiliation": "Institute of Clinical Medicine, University of Eastern Finland, Kuopio, Finland."
+    }
+   ],
+   "doi": "10.1111/apa.70791",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "prehospital pediatric and neonatal care provided by paramedics",
+   "exclude_reason": "",
+   "topics": [
+    "prehospital_ems",
+    "education_workforce"
+   ],
+   "design": "cross_sectional",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Self-reported competence survey provides background on training needs rather than direct clinical evidence.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 1,
+    "rigor": 1,
+    "generativity": 1,
+    "rationale": "Standard cross-sectional survey; useful for workforce planning but not methodologically novel.",
+    "total": 4
+   },
+   "one_line": "Finnish paramedics self-report moderate pediatric and lower neonatal competence, with lowest confidence in pediatric mental health emergencies.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42844721",
+   "title": "Food Insecurity Screening and Immediate Access to Prepackaged Groceries in the Pediatric Emergency Department: A Pilot Study.",
+   "journal": "Pediatr Emerg Care",
+   "journal_full": "Pediatric emergency care",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "keywords": [
+    "access to essentials",
+    "food access",
+    "food insecurity",
+    "health related social needs",
+    "pediatric emergency department"
+   ],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Fujii H",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Hunter B",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Bapty S",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Chilukuri N",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Davis L",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Serwint JR",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Kane A",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    },
+    {
+     "name": "Canares TL",
+     "affiliation": "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD."
+    }
+   ],
+   "doi": "10.1097/PEC.0000000000003722",
+   "pmcid": "",
+   "entry_date": "2026-10-08",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "caregivers of children in the pediatric ED being screened for food insecurity and receiving prepackaged groceries",
+   "exclude_reason": "",
+   "topics": [
+    "ed_operations_quality",
+    "equity_access"
+   ],
+   "design": "qualitative",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "Pilot qualitative study; provides background on feasibility and acceptability of food insecurity screening in the PED, but not practice-changing.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 1,
+    "question_novelty": 2,
+    "rigor": 0,
+    "generativity": 1,
+    "rationale": "Standard qualitative content analysis of a single-center pilot; novel question about immediate food provision in the PED, but limited rigor.",
+    "total": 4
+   },
+   "one_line": "In a PED pilot, caregivers found prepackaged groceries helpful during acute visits, but community resources were hard to access.",
+   "summary": null,
+   "methods_note": null
+  },
+  {
+   "pmid": "42837585",
+   "title": "Human Trafficking and Exploitation in Pediatric Acute Care: Recognition, Communication, and Response.",
+   "journal": "Pediatr Ann",
+   "journal_full": "Pediatric annals",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Adolescent",
+    "Child",
+    "Female",
+    "Humans",
+    "Communication",
+    "Human Trafficking",
+    "Pediatrics",
+    "Risk Factors"
+   ],
+   "keywords": [],
+   "language": "eng",
+   "authors": [
+    {
+     "name": "Lilitwat W",
+     "affiliation": "Department of Pediatrics, Texas Tech University Health Sciences Center, Lubbock, Texas."
+    }
+   ],
+   "doi": "10.3928/19382359-20260730-04",
+   "pmcid": "",
+   "entry_date": "2026-10-06",
+   "had_abstract": true,
+   "include": true,
+   "ed_link": "children presenting to pediatric acute care settings, including the ED, with possible human trafficking or exploitation",
+   "topics": [
+    "child_protection"
+   ],
+   "design": "narrative_review",
+   "multicenter": false,
+   "pocus": false,
+   "ai": false,
+   "clinical": {
+    "impact": 1,
+    "evidence": 0,
+    "relevance": 1,
+    "novelty": 0,
+    "rationale": "A practical clinical review that raises awareness and offers communication strategies, but provides no new evidence or decision tool.",
+    "total": 2
+   },
+   "research": {
+    "method_novelty": 0,
+    "question_novelty": 0,
+    "rigor": 0,
+    "generativity": 0,
+    "rationale": "Narrative review of a well-described topic with no novel methods or research questions.",
+    "total": 0
+   },
+   "one_line": "A practical review on recognizing and responding to possible human trafficking in pediatric acute care settings.",
+   "summary": null,
+   "methods_note": null
+  }
+ ]
+}
